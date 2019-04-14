@@ -1,0 +1,18 @@
+
+Origin: Chimera Repo
+Label: Chimera Repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Codename: ios
+Description: Core Utilities for the Chimera jailbreak
+Date: Sat, 13 Apr 2019 06:27:03 +0000
+MD5Sum:
+ 80bbf454d16424f6b9fda8be0e35e7bf 40662 Packages
+ a7e1646a96d619a4abbb7c5dd7d6c07c 11289 Packages.bz2
+ 23fe5892bbcf1c783e6f4d1e8b046bf5 11844 Packages.xz
+SHA256:
+ 5c8374d953a30b8c40194e15cc7c7081db3a394f2b50947480c1018ff5b50095 40662 Packages
+ bfcfd6b15473f67bd6b7c7f742d806470efa859b4d50f931e19340a71177c2f2 11289 Packages.bz2
+ 38960be027be61342c8d0c0356cdd392e4b2e1c687ed7bde52f60dbfc221b6f3 11844 Packages.xz
