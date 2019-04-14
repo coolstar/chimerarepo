@@ -1,0 +1,1211 @@
+Package: adv-cmds
+Version: 172
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Provides: ps
+Filename: debs/adv_cmds_172_iphoneos-arm.deb
+Size: 58578
+MD5sum: 84d85b731641f8d717ebcd44dbb78166
+SHA1: b83d5a3bae2e74f9cf52447c34a3b405cbd22d96
+SHA256: 7b1c8b2ef5910abeb8728274530133275cb3a1d699a38f09fe7935238e5739bb
+Section: Administration
+Priority: important
+Description: finger, fingerd, last, lsvfs, md, ps
+Tag: purpose::console, role::hacker
+
+Package: apt
+Version: 1.7.4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: apt-key, apt-lib (>= 1.7.4), berkeleydb, cy+cpu.arm64
+Replaces: apt7
+Provides: apt7 (= 1.7.4)
+Filename: debs/apt/apt_1.7.4_iphoneos-arm.deb
+Size: 136488
+MD5sum: ca85834d75a9b6d754283cf6a56049dd
+SHA1: b3b46bad03f8a18f0b61d88c3b99daf59d29cce7
+SHA256: 65a8753c35e6f7e936543509c4b51839dc6e5ebca4fd44e3a2b385ccf345c0c5
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT 1.7 Strict
+
+Package: apt-key
+Version: 1.7.4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: apt-lib (>= 1.7.4), cy+cpu.arm64
+Replaces: apt7-key
+Provides: apt7-key (= 1.7.4)
+Filename: debs/apt/apt-key_1.7.4_iphoneos-arm.deb
+Size: 8728
+MD5sum: 3566d52973e6897aa6d688053e4f812a
+SHA1: 41fd0c04a604b19941dcf2ecd3d3d89d91fd63dc
+SHA256: eb2a65b2a8dad4fbd8a1f907414f55b97ccb3984236d6a333d30f2c389b331cf
+Section: Packaging
+Priority: standard
+Description: repository encryption key management tool
+Name: APT 1.7 (apt-key)
+
+Package: apt-lib
+Version: 1.7.4-sileo
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.18)
+Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
+Conflicts: apt7-ssl
+Replaces: apt7-lib
+Provides: apt7-ssl, apt7-lib (= 1.7.4)
+Filename: debs/apt/apt-lib_1.7.4-sileo_iphoneos-arm.deb
+Size: 1544676
+MD5sum: 2e59913dbebaa442fe08a88d7e707a7b
+SHA1: 789eece30a3bbac8ac9d89a5cc20f81c41703fa5
+SHA256: f51bf280b15e75387c5bb3777d03b3de664b87704f0e016d8ac1c19d1403199f
+Section: Packaging
+Priority: required
+Description: the advanced packaging library from Debian
+Name: APT 1.7 Strict (lib)
+
+Package: bash
+Version: 4.4.18-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: grep, ncurses (>=6.1), sed, cy+cpu.arm64
+Filename: debs/bash_4.4.18-1_iphoneos-arm.deb
+Size: 422380
+MD5sum: 1236b494355a4ec7440265502ce65983
+SHA1: 38f0a6efe8fc960ca1f27476aa228a4ed3092678
+SHA256: 39aca7c4ffdc2858da313b39063de85859f3fb3bd86add3b988ff9d40559ad77
+Section: Terminal_Support
+Priority: required
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+
+Package: basic-cmds
+Version: 55
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Filename: debs/basic_cmds_55_iphoneos-arm.deb
+Size: 11466
+MD5sum: 7178178974ddf9e8724b35e82e773be7
+SHA1: f9a03c59ff8a6d251c54ccc9b952dee7cffea8ae
+SHA256: 034cc29f3ccad0a62ac2df94e4d73c52e79c7b72d6949d3ed31f31fd10b1a93b
+Section: Utilities
+Priority: important
+Description: msg, uudecode, uuencode, write
+Tag: purpose::console, role::hacker
+
+Package: berkeleydb
+Version: 6.2.23-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/berkeleydb_6.2.23-1_iphoneos-arm.deb
+Size: 1119392
+MD5sum: e08dd6ccb971abb0469c25094f9dfde1
+SHA1: 4a60191c8780967a0708908d6521f812b0e04ce9
+SHA256: e51e01ea81300a747bc6fd8736937482a185fa76a4964d4cc2c726db33d7dcd5
+Section: Data_Storage
+Priority: standard
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+
+Package: bootstrap-cmds
+Version: 98
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/bootstrap-cmds_98_iphoneos-arm.deb
+Size: 72856
+MD5sum: ae0c4eb5525058e4ad0378d38e0c2432
+SHA1: 178634e42a96fabbb21f1e6eb4b26c2ec4136f5f
+SHA256: 5e99fb08094cdef8a3e8cde5424397331b9875109390aa5d6324a5b69666d2d0
+Section: Development
+Priority: optional
+Description: Mach interface and stub generator
+Name: Bootstrap Commands
+
+Package: bzip2
+Version: 1.0.6-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/bzip2_1.0.6-2_iphoneos-arm.deb
+Size: 43492
+MD5sum: 32daa53c5f8e848a70354e8fd7f90a8f
+SHA1: 7e7d3b57fb737f724e3b036f2977f386340ad6f9
+SHA256: dab25331a67942e6abe48960e1203f5991648788c506518d76b44f955a42399e
+Section: Archiving
+Priority: important
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: com.ex.libsubstitute
+Version: 0.0.8-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 8.0), cy+cpu.arm64
+Filename: debs/com.ex.substitute_0.0.8-coolstar_iphoneos-arm.deb
+Size: 25604
+MD5sum: 01eb0b22eb857533ac8b6d7ede91acaf
+SHA1: d1dbab4b9125844af689d9bdbb12a9c84d25c2ac
+SHA256: 886e8f7d6d7aee12ed7bd9718e7571ac6cad70ddce63f56be3203a6df340c063
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution (library only)
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: coreutils
+Version: 8.30
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 8.30), profile.d, cy+cpu.arm64
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: debs/coreutils_8.30_iphoneos-arm.deb
+Size: 746832
+MD5sum: 78e399d1aa58eaeb22b5a9457beade99
+SHA1: f69162a658a03447c88bdc6e9f037f0dea39466d
+SHA256: a87fbfd963b981e1b4bd0969aded83159de3fc9d7c0dc3fb271d7a44fcb8bf25
+Section: Utilities
+Priority: standard
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
+Package: coreutils-bin
+Version: 8.30
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.29)
+Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
+Provides: dirname, kill, mktemp
+Filename: debs/coreutils-bin_8.30_iphoneos-arm.deb
+Size: 425860
+MD5sum: 3ee09bcb626e0ef523c7824982d4215c
+SHA1: 7c52e308b7f8ce5ba0851abaa2e1b2c2f7419806
+SHA256: 138227e03ff846c8fa62e3ba656c784bdbf95dec243f24c2da5785c529e78242
+Section: Utilities
+Priority: required
+Homepage: http://www.gnu.org/software/coreutils/
+Description: just the /bin folder from GNU coreutils
+Name: Core Utilities (/bin)
+
+Package: curl
+Version: 7.64.1-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, nghttp2, cy+cpu.arm64
+Filename: debs/curl_7.64.1-1_iphoneos-arm.deb
+Size: 291956
+MD5sum: 7f554d8759f576f095b5f096a52e1e0b
+SHA1: 0ead1e0458651cffe5128fc80690d36b3fb5ed6d
+SHA256: e988159fcc9ef7353100fcbd8e329dba250df43babcf259823f20e5624880b15
+Section: Networking
+Priority: standard
+Homepage: http://curl.haxx.se/
+Description: flexible multi-protocol file transfers
+Name: cURL
+
+Package: cydia
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: cydia-gui | org.coolstar.sileo, apt7-lib, apt7-key, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), cy+cpu.arm64
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_2.1-1_iphoneos-arm.deb
+Size: 94932
+MD5sum: e71420514359fd457ef5015250ec3a4b
+SHA1: 11223897069e466eea9cb2f494da8b9dec3cd820
+SHA256: 313e85fa166af61fa7cf377d3c537aef375b307301db27755bf21bcf560d593f
+Section: Packaging
+Priority: required
+Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
+Tag: cydia::essential
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Cydia Compatibility Package
+
+Package: cydia-gui
+Version: 1.1.30-5
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Replaces: cydia
+Filename: debs/cydia-gui_1.1.30-5_iphoneos-arm.deb
+Size: 1064132
+MD5sum: a3eb89fc15ff3405735cb9d935a7e98c
+SHA1: a84b5f59d5ddcc2c52309ae934bad02c89ea264d
+SHA256: 306bca0397e8a2bd50d2974f5df634eb0b3c4bff3f932a810f68c7730b9646b6
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia (GUI Only)
+
+Package: cydia-lproj
+Version: 1.1.12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Filename: debs/cydia-lproj.deb
+Size: 66876
+MD5sum: 50df4fbd8f163f553a5ba6e4e8fcad15
+SHA1: e3cf092b6e54261f59c7bcbf483d60479a9f86e4
+SHA256: be77311b214122e5ff7dabd001c96b8cd8a4e479362f3163a557d8dd9b520f31
+Section: Packaging
+Priority: required
+Description: languages and translations for Cydia
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Name: Cydia Translations
+
+Package: darwintools
+Version: 1-7
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/darwintools_1-7_iphoneos-arm.deb
+Size: 6032
+MD5sum: ff82cc498284147cb6463f162ce6e826
+SHA1: e3d7d8c7bb3c4331a05bc2a5e7a178755a99265d
+SHA256: 2b7b6c7ab2a70daaa425f047ab30291629f2379b463a15a9b11c174e012ffcba
+Section: Administration
+Priority: required
+Description: startupfiletool, sw_vers
+Name: Darwin Tools
+
+Package: debianutils
+Version: 4.8.4-1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/debianutils_4.8.4-1_iphoneos-arm.deb
+Size: 7308
+MD5sum: 5cce34584588d37615b5adff33506950
+SHA1: ccde1bdc1e5110e5d4966a748badec9d1bea54e4
+SHA256: abae7b90b02601b5a61c98aa013f0dc111aabdcaa1ff0de1f339541fac8836d8
+Section: Utilities
+Priority: required
+Description: pretty much just run-parts. yep? run-parts
+Name: Debian Utilities
+
+Package: developer-cmds
+Version: 63
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/developer_cmds_63_iphoneos-arm.deb
+Size: 52766
+MD5sum: ccaa01dbb3c0dadccf683a78da58c2c7
+SHA1: 1f19e36716360a97b5004dfdd71a64fc710a6384
+SHA256: c86f701f281cf793b4d94cfcb8c57bf85da4805eae3810acdc05abecee451e3b
+Section: Development
+Priority: important
+Description: ctags, hexdump, rpcgen, unifdef
+Tag: purpose::console, role::developer
+
+Package: diffutils
+Version: 3.7
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/diffutils_3.7_iphoneos-arm.deb
+Size: 127264
+MD5sum: 63ec3500d403705977ca99e50d805636
+SHA1: 48124997a1487786c7f1ebb8a12d8ab12e8146d0
+SHA256: 4307953d90134923862d2fafb3fa36c57cfe6eff0e66de63f754fbdd98cfe11f
+Section: Development
+Priority: important
+Homepage: http://www.gnu.org/software/diffutils/
+Description: compare two files for differences
+Name: Diff Utilities
+
+Package: diskdev-cmds
+Version: 593-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware-sbin, cy+cpu.arm64
+Filename: debs/diskdev_cmds_593-1_iphoneos-arm.deb
+Size: 50072
+MD5sum: 8d9cca99e14428c38df6a6bdc4096c90
+SHA1: ffc1d2af584d6ecd1b6e27a62f4e50355fca52ed
+SHA256: 8f48da750a2bb69dcb6bfe69eb06021be1e9c0e243454b8bec616ff73e539925
+Section: System
+Priority: required
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+Tag: purpose::console, role::hacker
+
+Package: dpkg
+Version: 1.19.4-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, tar, cy+cpu.arm64
+Filename: debs/dpkg_1.19.4-1_iphoneos-arm.deb
+Size: 272076
+MD5sum: 66c5c2656abe99891cc735710656a1b5
+SHA1: 60b929073281472ddbc6d09de3d287393b6034cc
+SHA256: 5a2d02653c5cc6618d21b6d0b1ab0f283a87766c8dcf64aa6c9fc2e7f1624db5
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintenance tools from Debian
+Name: Debian Packager
+
+Package: file
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/file_3.3_iphoneos-arm.deb
+Size: 250146
+MD5sum: 1a0bd8ce0fa50f7a77204e6931772d76
+SHA1: c3cdc0ef8c5acbe094ee5bb17f445f66c4668d5c
+SHA256: d6c9338c0f83cb1de1721797d26cccc2a1610485c344ea84b9632a0c1d960a9d
+Section: Utilities
+Priority: important
+Description: guesses the type of a file from contents
+Tag: purpose::console, role::hacker
+
+Package: file-cmds
+Version: 272
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/file_cmds_272_iphoneos-arm.deb
+Size: 63476
+MD5sum: 01023b9edc0650e43b924e622d871b03
+SHA1: 98d4f3bc298ec8caca45985592af66aeff889e65
+SHA256: 315836da40b9ed95f93dd091e60fdb0fa7ce8b5d0bd1d45eb1e53e4941cb534d
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
+Package: findutils
+Version: 4.6-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: bash, sed, cy+cpu.arm64
+Filename: debs/findutils_4.6-1_iphoneos-arm.deb
+Size: 174956
+MD5sum: 356f60c003814a04aca6cf03cc40e50e
+SHA1: 693e765f223b6514996388451e6380b8017597bd
+SHA256: 0762c65c948ccb7b67015efecdba95ac3c00c5732cb0385bf564e8f57a93aa7d
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+Name: Find Utilities
+
+Package: gawk
+Version: 4.2.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/gawk_4.2.1_iphoneos-arm.deb
+Size: 265062
+MD5sum: 9faafaedc6854666e7e39f751547ab69
+SHA1: 4cd0e1a49206be73288cc5f0b22e1647e237c32b
+SHA256: 2724cde792ce46edf0b0ae97de38df55647867b83b9d8f4d79891b1772ec61e2
+Section: Utilities
+Priority: important
+Description: GNU's heavy-weight implementation of awk
+Tag: purpose::console, role::hacker
+Name: Gawk
+
+Package: gcrypt
+Version: 1.8.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: libgpg-error, cy+cpu.arm64
+Filename: debs/gnupg2/gcrypt_1.8.2_iphoneos-arm.deb
+Size: 359076
+MD5sum: 6428343449e23d987a53e40d0a8ba4dc
+SHA1: c47bfdbe96f9b53fc158cf463fb6308612d6f450
+SHA256: 5c71ca2308c15893862e80fd84f446db413f876f561cb76362ef74f74c1ada5f
+Section: Security
+Priority: optional
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: git
+Version: 2.16.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, openssl, cy+cpu.arm64
+Filename: debs/git_2.16.2_iphoneos-arm.deb
+Size: 3319988
+MD5sum: f835286e348418bb2df3112e4c430192
+SHA1: 3cb757af7ecef42d86c88d8499d0e3f32bdaf7ec
+SHA256: 5293ac610095ec805ce1ff49a842b91f81bfb6a51632b09d6d147a2a2dd773a6
+Section: Data_Storage
+Priority: optional
+Description: fast content-addressable filesystem
+Tag: purpose::console, role::hacker
+Name: Git
+
+Package: gnupg
+Version: 1.4.23
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/gnupg_1.4.23_iphoneos-arm.deb
+Size: 540468
+MD5sum: 06aece6959ca1bc2db13e0403dd99b79
+SHA1: 4e9665c760c652dc6ad699c5af4bd68cf03856a3
+SHA256: 0df1d4c5086a0a254da3d32f02d95e42b47c6725d7ef242d42ab9bbc91148716
+Section: Security
+Priority: required
+Homepage: http://www.gnupg.org/
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+
+Package: gnupg2
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: gcrypt, npth, libassuan, libksba, cy+cpu.arm64
+Filename: debs/gnupg2/gnupg2_2.2.3_iphoneos-arm.deb
+Size: 1187586
+MD5sum: 471762bae8c82a374e850883c014c797
+SHA1: 271976c2b59954f7534af324df5f06f4f8bf9aec
+SHA256: 5cba115b7844c031f87ebfc574aea3591cc9787f0cf86dec2caedd3482e8e950
+Section: Security
+Priority: optional
+Description: newer encryption compatible with OpenPGP
+Name: GnuPG 2
+
+Package: grep
+Version: 3.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/grep_3.3_iphoneos-arm.deb
+Size: 101896
+MD5sum: 1b5e95f6aff09406249edd696ec95d43
+SHA1: ca65ba7fb59b323b38715b566ad1439f46b20138
+SHA256: 77926c596e2e13f318a6021749daf18cc1a83763e4def4128ca08d9b5a57a63b
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/grep/
+Description: searches files for regular expressions
+
+Package: gzip
+Version: 1.10
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: grep, sed, cy+cpu.arm64
+Filename: debs/gzip_1.10_iphoneos-arm.deb
+Size: 61836
+MD5sum: 477bfeb2f914b89450f59b04872b3326
+SHA1: 1c6698b56d48d767517b6b865679ed005b573dd2
+SHA256: 3662811a86c68856909adc2d77bf424e258a9782640d1a9e94e2fbc718577983
+Section: Archiving
+Priority: required
+Homepage: http://www.gzip.org/
+Description: the standard Unix compression algorithm
+
+Package: inetutils
+Version: 1.9.4-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, cy+cpu.arm64
+Replaces: coreutils (<< 7.2-6)
+Provides: hostname, ping, telnet, whois
+Filename: debs/inetutils_1.9.4-2_iphoneos-arm.deb
+Size: 401280
+MD5sum: 25954ea668ddeadbfd411835fddaec17
+SHA1: c958431141ff83e4a6bf4b556f23156b24a42868
+SHA256: 86f38e3d84b34881c9ae133d8c8dfdb8da64609b0e8b760221367fe626afa03d
+Section: Networking
+Priority: standard
+Homepage: http://www.gnu.org/software/inetutils/
+Description: ftp, inetd, ping, rlogin, telnet, tftp
+Tag: purpose::console, role::hacker
+
+Package: iokittools
+Version: 108
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/iokittools_108_iphoneos-arm.deb
+Size: 11094
+MD5sum: def05c9514a479e0ffb37c6d29b3a977
+SHA1: 7b5251ec7fd6d536b026cac1525df2bec643d85e
+SHA256: a68314a360e53d71c4c841a1bba67e36c7249d431a89e6f5a15c7959af5b6778
+Section: Administration
+Priority: important
+Description: ioalloccount, ioclasscount, ioreg
+Tag: purpose::console, role::hacker
+Name: IOKit Tools
+
+Package: ldid
+Version: 2:1.2.2-coolstar2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Installed-Size: 272
+Filename: debs/ldid_2_1.2.2-coolstar2_iphoneos-arm.deb
+Size: 25904
+MD5sum: 97ac0b9a4cbbef2834ce54364e76d205
+SHA1: cc63ded45b112be82938a23db1210d259b96ebb6
+SHA256: 2c82c393f82fadec3617d8c972d28f081b96370f2e0b918f76c7d4d84e00ac27
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/ldid/
+Name: Link Identity Editor
+
+Package: less
+Version: 530
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg
+Depends: ncurses, cy+cpu.arm64
+Replaces: system-cmds (<= 433.4-11)
+Provides: more
+Filename: debs/less_530_iphoneos-arm.deb
+Size: 101266
+MD5sum: ef61170d6f6ca4ea69d04e6f039978fb
+SHA1: 503b6ed98c906fe86fb97064736126ee9c48a7ff
+SHA256: e845bf5589400ed48d5df17bf5b2db11999cec0f648f01a62acfdb144059a90e
+Section: Utilities
+Priority: important
+Description: provides less information than more does
+Tag: purpose::console, role::hacker
+
+Package: libassuan
+Version: 2.5.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: npth, cy+cpu.arm64
+Filename: debs/gnupg2/libassuan_2.5.1_iphoneos-arm.deb
+Size: 43730
+MD5sum: 36fc2516899873dc40e95461de161861
+SHA1: c00fd8c650c4620e0d01d63384fb27d0ea6ea61c
+SHA256: c99f5d622e58665953afc69567d6ce2ef5177f0d51dd2c0682a024e158785c76
+Section: Development
+Priority: optional
+Description: GnuPG's inter-process communication
+Name: Assuan
+
+Package: libgpg-error
+Version: 1.27
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/gnupg2/libgpg-error_1.27_iphoneos-arm.deb
+Size: 66858
+MD5sum: e47317652b158070b9215a029266bdb1
+SHA1: f5fed6baf82d33c204d738ef0acfd419c0a6938e
+SHA256: d6f50ff75b1963569933176e5736460d56b63017b60b7128304af45382f6fe7d
+Section: Security
+Priority: optional
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libksba
+Version: 1.3.5
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: libgpg-error, cy+cpu.arm64
+Filename: debs/gnupg2/libksba_1.3.5_iphoneos-arm.deb
+Size: 94246
+MD5sum: b510888bf158426e84b1ad0ec4aafe0e
+SHA1: 22dbc486b56fb6639b354ad5ce4ac451f0e55074
+SHA256: 89778bd6b57fabb689de0a27f262258d57ab4589efcd1d93a53cd4b826eb0c7b
+Section: Security
+Priority: optional
+Description: GnuPG's certification management library
+Name: KSBA
+
+Package: libressl
+Version: 2.8.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Conflicts: openssh (<=7.6p1-5)
+Replaces: openssl
+Provides: openssl
+Filename: debs/libressl_2.8.3_iphoneos-arm.deb
+Size: 3294080
+MD5sum: e31baf8a698957b8d4092dfc39f1bcea
+SHA1: e81d23494aa589f59d00f8a6bcf7bd1d14d2cdc2
+SHA256: 9fd40810829654fa0adce16314d26d144c8e110af208d81e7938654baf1962d4
+Section: Security
+Priority: standard
+Description: SSL library and cryptographic tools
+Name: LibreSSL
+
+Package: lsof
+Version: 62-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses (>=6.1), cy+cpu.arm64
+Filename: debs/lsof_62-1_iphoneos_arm.deb
+Size: 46166
+MD5sum: 7cdf0566afdf5d397dea785ba09e5da9
+SHA1: 1a09047f145d4695324dbaed5d1e41fc9ee1a02a
+SHA256: dbc8ab10439a043e5644473e36bf32cf7c2a4aeb4c027fa8ee5e9705c70c52c3
+Section: Administration
+Priority: standard
+Description: shows what files programs have open
+Tag: purpose::console, role::developer
+
+Package: lzma
+Version: 5.2.4-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: grep, sed, cy+cpu.arm64
+Filename: debs/lzma_5.2.4-1_iphoneos-arm.deb
+Size: 139796
+MD5sum: c05c661d31d4d7cb82ff8a373238cae7
+SHA1: 6ba9cc6d8c2c38485418c3f0e22f030bca2362b8
+SHA256: 398d5dcc1044325bbde68116806e668d9c5287e2d30f49a87a8022eeb82e8ce5
+Section: Archiving
+Priority: important
+Homepage: https://tukaani.org/xz/
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+
+Package: make
+Version: 4.2.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/make_4.2.1_iphoneos-arm.deb
+Size: 86938
+MD5sum: 8cf0c925130edb4f4313ff2517cceddb
+SHA1: 95d60de95e0142ee23941ccd833bed6de207a530
+SHA256: 3560fb7b72bb3820496ffe2cd92333a982b603d6563e8b2503f57048baf9c098
+Section: Development
+Priority: important
+Description: dependency-based build environments
+Tag: purpose::console, role::hacker
+Name: Make
+
+Package: mobilesubstrate
+Version: 99.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Filename: debs/mobilesubstrate_99.2_iphoneos-arm.deb
+Size: 3664
+MD5sum: e3f495b930da06051dd326eb54fe7291
+SHA1: ae102133cef775c7b1490f82d3c5755a01916a6a
+SHA256: 735829480a02abee3b0b62e2bc538d2aca38caedaf94a6292380068980bec884
+Section: System
+Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
+Author: CoolStar <coolstarorganization@gmial.com>
+Name: Substrate Compatibility Layer
+
+Package: nano
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses (>=6.1), cy+cpu.arm64
+Filename: debs/nano_3.2_iphoneos-arm.deb
+Size: 177026
+MD5sum: 52b7b165da8a0e3ee933e77b0692e4ec
+SHA1: 1987b15ef66bcddc326f5d6389261139b12c39f3
+SHA256: d7a419c48883205e370c1dd5ca0a06e04109790bfbc05c199aacb99a50db9fdf
+Section: Text_Editors
+Priority: standard
+Description: completely free, modern clone of Pico
+
+Package: ncurses
+Version: 6.1-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/ncurses_6.1-1_iphoneos-arm.deb
+Size: 1514108
+MD5sum: 19c1c26084cbc696d14b2e99274504f4
+SHA1: d3d3898312dd5872005cfae24107d32b8887b9fa
+SHA256: 03b6f398cf7f7e876006b206816cde95736cc8781e3ce0ef4d4b936f20768161
+Section: System
+Priority: required
+Description: feature-complete terminal library
+Name: New Curses
+
+Package: network-cmds
+Version: 543
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 10.0), cy+cpu.arm64, inetutils
+Filename: debs/network_cmds_543_iphoneos-arm.deb
+Size: 91794
+MD5sum: a22ca80f02fa990d74270c1121fc23c0
+SHA1: 29510264c2103e189c9d61334990b929476b8c2a
+SHA256: 04eb7fd2f88fcd1156d4e7fd8140de8ceb94ea127572de5202f05867c306fedc
+Section: Networking
+Priority: important
+Description: arp, ifconfig, netstat, route, traceroute
+Tag: purpose::console, role::hacker
+Name: Network Commands
+
+Package: nghttp2
+Version: 1.37.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.24-8)
+Depends: cy+cpu.arm64
+Filename: debs/nghttp2_1.37_iphoneos-arm.deb
+Size: 85716
+MD5sum: b4d7f80f16979ffb9ac14d14ee72fb2c
+SHA1: cd5a013b486faf0c0c2f762c5aafc409c209d559
+SHA256: 50f32a4fe9e84022ec6f6f093e04695ecaf48cd66770a75a364432f054c9ed15
+Section: Networking
+Priority: standard
+Homepage: https://nghttp2.org/
+Description: HTTP/2 C library
+Name: Nghttp2
+
+Package: npth
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/gnupg2/npth_1.5_iphoneos-arm.deb
+Size: 13862
+MD5sum: 6208e3a16c0a77b221cb7d1224606f3f
+SHA1: 6d0337cb124c036bd17aa6560fcf04129cf55c25
+SHA256: ca5d1543d40cda820e34a4a1b71faa8b836d122cb04730f201b5812360b7907b
+Section: Development
+Priority: optional
+Description: The New GNU Portable Threads Library
+Name: New GNU Portable Threads
+
+Package: openssh
+Version: 7.9p1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libressl, cy+cpu.arm64
+Filename: debs/openssh_7.9p1_iphoneos-arm.deb
+Size: 1269568
+MD5sum: 71b7f9fefdae25495ced6262900964f4
+SHA1: c8f35709b733109baafbcfe9a074556310c024af
+SHA256: 19d3fd241e3f5d1294397a1866ef4ad417cb136abf374dee7fda49cd433733e1
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Tag: purpose::daemon, purpose::console, role::enduser
+Depiction: https://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
+Package: org.coolstar.semirestore11-lite
+Version: 11.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), firmware (<< 11.2)
+Filename: debs/org.coolstar.semirestore11-lite_11.0_iphoneos-arm.deb
+Size: 4528
+MD5sum: 3eceb58e5a0e86ec692c3972bd417167
+SHA1: 02b42aea4b3f4a4ffa380137132eded2ba4a5c22
+SHA256: 465616be190cf16208fa5c5675339af7b91a29d4f94ce78bbbe821ab03ea0708
+Section: System
+Priority: standard
+Description: Uninstall all installed tweaks and revert Electra to the state where it was immediately after jailbreaking
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: SemiRestore 11 Lite
+
+Package: org.coolstar.sileo
+Version: 0.8b11
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt7 (>= 1.7.0), apt7-lib (>= 1.7.0-sileo), apt7-key (>= 1.7.0), dpkg (>= 1.19.2-4), cydia (>= 1.9.1), cy+cpu.arm64
+Conflicts: cydia-gui (<= 1.1.30-3)
+Filename: debs/org.coolstar.sileo_0.8b11_iphoneos-arm.deb
+Size: 1917784
+MD5sum: 2ce5887c2770a708c42e281a2f2b1e55
+SHA1: 91057187f539e1cd8965072da53374a28434a84b
+SHA256: 681f69385bb3db87ff4e4b8540f7db4041fa122a31b3c070468a20e4ebdc691c
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo (Beta)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+
+Package: org.coolstar.substrateloader
+Version: 0.9.7020
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, dpkg (>=1.19.2-4), cy+cpu.arm64
+Conflicts: mobilesubstrate, com.ex.libsubstitute
+Replaces: mobilesubstrate, com.ex.libsubstitute
+Provides: mobilesubstrate (=0.9.7020)
+Filename: debs/org.coolstar.substrateloader_0.9.7020_iphoneos-arm.deb
+Size: 5008
+MD5sum: 3c94d0f59c5d8bbc7aee14fd894c8e2c
+SHA1: f60b6b69ae22bfa358458e0fd2655c152c4042d1
+SHA256: b606f8c969a6987fe392197d8ccf5a5d8af7125ef75f1062095b402fd7796922
+Section: System
+Description: Substrate downloader and extractor for Electra. Also working proof the original substrate works fine on Electra
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Substrate Downloader
+
+Package: org.coolstar.tweakinject
+Version: 1.1.1-sileo
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute | org.coolstar.substrateloader
+Filename: debs/org.coolstar.tweakinject_1.1.1-sileo_iphoneos-arm.deb
+Size: 25412
+MD5sum: e68f391db2d565ce7ce4d1f19d5e036b
+SHA1: c066ae2c9864e4c94d82db2b4f2c5d1f92b99292
+SHA256: dee131f5c39e6bb0769b5f99d003076e0e95b887a8477fc285c12eba85fcaa21
+Section: System
+Description: General purpose tweak loader with safe mode in case of crashes
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Tweak Injector
+
+Package: p7zip
+Version: 16.02
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/p7zip_16.02_iphoneos-arm.deb
+Size: 923546
+MD5sum: a73e907822a0fab296afa01166ad98ae
+SHA1: 79fac68eb3a18dc702ffde10247a5861f3910fa1
+SHA256: 3e64d65759bb9383e7711bab17ccb5eae06d6df48a125816074292993f49ed70
+Section: Archiving
+Priority: optional
+Description: A port of 7za.exe for POSIX systems like Unix
+Tag: purpose::console, role::hacker
+Name: 7-zip (POSIX)
+
+Package: patch
+Version: 2.7.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/patch_2.7.6_iphoneos-arm.deb
+Size: 85534
+MD5sum: b63507bb28254441891b0602fa63ee3d
+SHA1: f95b60598d31c1ed2b8eb602b85058abd2cbe1df
+SHA256: a4b8d55aa8b4990a1f7aebb2a169a96da6ae6b3f91a5e48fca5710864921f15e
+Section: Development
+Priority: important
+Description: merge a difference onto a file
+Tag: purpose::console, role::hacker
+
+Package: pincrush
+Version: 0.9.2-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Filename: debs/pincrush_0.9.2-2_iphoneos-arm.deb
+Size: 93822
+MD5sum: c6396b3e7f440b9cf5e23fa233848769
+SHA1: bd0e82409bd5e62a13f1b619ce7b85c9889412d9
+SHA256: c5b0542de8368beff11d9cadb1dd58ec78ee5030dd05fa150508fd67af3e049b
+Section: Utilities
+Homepage: http://howett.net/pincrush
+Description: optimize PNGs just like Apple does
+ pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
+Tag: purpose::console, role::hacker
+Author: Dustin Howett <dustin@howett.net>
+Name: pincrush
+
+Package: rsync
+Version: 3.1.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/rsync_3.1.3_iphoneos-arm.deb
+Size: 209420
+MD5sum: 31374a7f36ea8c353e2b769292793b09
+SHA1: 673647425142f3b70da78e7e4aac5720ff9498f1
+SHA256: fb0c58476aca2943a2434f9244afc8acd1bd8401625203aa98ded67a73c32fc4
+Section: Networking
+Priority: important
+Homepage: http://www.samba.org/rsync/
+Description: synchronize files between computers
+Tag: purpose::console, role::hacker
+
+Package: screen
+Version: 4.6.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/screen_4.6.2_iphoneos-arm.deb
+Size: 373556
+MD5sum: 8e3f7178a47eb0deb9933886a5e3e267
+SHA1: 6b38a3bb7beb9f98e00b23afb195faca86771264
+SHA256: 310644b132be35b45f5210d54f3cf63e3f724d0edba499fa5dad20b0b409209f
+Section: Terminal_Support
+Priority: important
+Description: multiplexes a terminal into many
+Tag: purpose::console, role::hacker
+Name: Screen
+
+Package: sed
+Version: 4.7
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/sed_4.7_iphoneos-arm.deb
+Size: 88268
+MD5sum: 497fc0f166fff83bcd450f1e42cf5bec
+SHA1: ca5d455905540b12243ab6ea50023a57910ebe2b
+SHA256: 2d27f7c66bf4e50c62bd74e20043337890c8868664da05c47d4539d20b44d6d2
+Section: Utilities
+Priority: important
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
+Package: shell-cmds
+Version: 203-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Provides: killall, which
+Filename: debs/shell-cmds_203-2_iphoneos-arm.deb
+Size: 14384
+MD5sum: a38a0c674e112db9cc17cabf5c432551
+SHA1: a8021b3ce6b4f060d672a59c2921a5c51965e045
+SHA256: e5aef09943a3a605258403289baa005d24d48c665b93e30275179b47aa9bbf99
+Section: Administration
+Priority: important
+Description: killall, mktemp, renice, time, which
+
+Package: socat
+Version: 1.7.2.3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/socat_1.7.2.3_iphoneos-arm.deb
+Size: 95740
+MD5sum: b8fe56f9a3efa7b349c4bafbb9a32b52
+SHA1: 2102c0dbe536c068bee7e8cea4af533a5dbfecac
+SHA256: ea6e931322953c4766cffba2b3f8e9d6c7b26f0c0717f7e7606a2536c77cad9e
+Section: Networking
+Priority: optional
+Homepage: http://www.dest-unreach.org/socat/
+Description: "netcat++" (post-increment, not pre-)
+Tag: purpose::console, role::hacker
+Name: SOcket CAT
+
+Package: sudo
+Version: 1.8.17p1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/sudo_1.8.17p1_iphoneos-arm.deb
+Size: 205646
+MD5sum: ae6ed31a02bad1f6892237ccff10945e
+SHA1: 73d7d9516c76c87a18a5740fd2d7017b9b14cd37
+SHA256: e8f5952158d3b510e44081a54a3dc742476e63d4321a567d8e9668c064afb9bf
+Section: Administration
+Priority: standard
+Description: temporarily assume root privileges
+Tag: purpose::console, role::hacker
+
+Package: system-cmds
+Version: 790-2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware-sbin, cy+cpu.arm64
+Provides: login, passwd, reboot
+Filename: debs/system-cmds_790-2_iphoneos-arm.deb
+Size: 108592
+MD5sum: a45fe07557521737fb212c9bd21bb0d8
+SHA1: df11c4f0e71d47dc39d14e77d49d4a253266ef00
+SHA256: 8ec323a64b5f98436d73de77af2d3701bc0f5270da50e06de3b28e3d2f39b9ff
+Section: Administration
+Priority: required
+Description: iostat, login, passwd, sync, sysctl
+
+Package: tar
+Version: 1.31-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: bzip2, gzip, lzma, cy+cpu.arm64
+Filename: debs/tar_1.31-1_iphoneos-arm.deb
+Size: 225524
+MD5sum: 4f6ef467db3a58c7d1082264eecde20b
+SHA1: f33ef6b071f922db67be0bb6871ea8abe840acc2
+SHA256: 4716c737b47bb2da537cb5ad368408a4b54db50418b6cf16e251e37ef80578c5
+Section: Archiving
+Priority: required
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives
+Name: Tape Archive
+
+Package: top
+Version: 111.20.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/top_111.20.1_iphoneos-arm.deb
+Size: 114804
+MD5sum: f6134d65fb54785685b8760ae953ccf7
+SHA1: d4eaa8d66b3cdf9963976d113610e9038276d1e4
+SHA256: ee096bae3cab56f3ba2999b3f39fd951d8e92a744ac2d54a80b38d71abb247bc
+Section: Administration
+Priority: important
+Description: at-a-glance process watching tool
+
+Package: uikittools
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: coreutils-bin, cy+cpu.arm64
+Conflicts: cydia-gui (<= 1.1.30-3), cydia (<< 2.1-1), org.coolstar.sileo (<= 0.8b9)
+Filename: debs/uikittools_2.0.1_iphoneos-arm.deb
+Size: 21388
+MD5sum: 73a491b9da19747ada94d8253be01c69
+SHA1: 31a6b7a934e1d3b149a09d8ab3b5a255609bbbec
+SHA256: 14ad9f65871550902e2eee2281de1dc41f39236146cafc85ac31ac0e8a38c48c
+Section: Utilities
+Priority: optional
+Description: Command line access for UIKit/LaunchServices/CoreServices
+Tag: purpose::console, role::hacker
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: UIKit Tools
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=uikittools
+
+Package: unrar
+Version: 5.5.8
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/unrar_5.5.8_iphoneos-arm.deb
+Size: 102032
+MD5sum: 498260e022c996a4262d6a4688f878ba
+SHA1: 52e3b69473824b2bd4e117ba416becd3a22adbc2
+SHA256: be0127fb33af3ad3311f5f617eb18c1c6d41aad561bb7bad253b98a37de2e794
+Section: Archiving
+Priority: optional
+Description: de-compresses files in rar format
+Tag: purpose::console, role::hacker
+
+Package: unzip
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/unzip_6.0_iphoneos-arm.deb
+Size: 74216
+MD5sum: 368716c2350561c03a8e52d255f2dedb
+SHA1: f5ef505a154939e983d82c4aa3cdd32c3bdca676
+SHA256: 401de073be523ed48f1809caf313a1c9bf0d1ce468b2dd8dd71f7d26c3d200a4
+Section: Archiving
+Priority: important
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
+Package: uuid
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/uuid_1.6.2_iphoneos-arm.deb
+Size: 23222
+MD5sum: 6972c534ed27bfe1af3b1f7fd757a30e
+SHA1: 880c6b60f1cdd53cd84518dfc52d8243f358be90
+SHA256: 778662d5a8b832697a0575efcfc5d2483060a04ebabbba1d5c995d09969cf35d
+Section: System
+Priority: important
+Description: universally unique identifiers
+Tag: purpose::library, purpose::console, role::developer
+Name: UUID Generator
+
+Package: vim
+Version: 8.0.1848
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses (>=6.1), cy+cpu.arm64
+Filename: debs/vim_8.0.1848_iphoneos-arm.deb
+Size: 5520672
+MD5sum: 99216eac7b3272b0b94924e22386f330
+SHA1: 49a76935104d83f3a067bc98ac21070e23080875
+SHA256: 89ed3e57e01ee8733f0417c28bbc53c1b2304b6de0c55399e8037471cbdc989a
+Section: Text_Editors
+Priority: standard
+Description: the best syntax highlighter, ever
+Tag: purpose::console, role::hacker
+Name: Vi IMproved
+
+Package: wget
+Version: 1.19
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, openssl
+Filename: debs/wget_1.1.9_iphoneos-arm.deb
+Size: 751258
+MD5sum: aab325077a2c5320de37e314eeb928e2
+SHA1: 0f5981d07f71ea92e1e1f6a2c85afafe0a384720
+SHA256: b449e9d006ed7906da49d6ca704ea7e22366a71fd2b1919602a20bad96f8d696
+Section: Networking
+Priority: important
+Description: simple HTTP file transfer client
+Tag: purpose::console, role::hacker
+
+Package: zip
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/zip_3.0_iphoneos-arm.deb
+Size: 96966
+MD5sum: 9a7540020edafea8c4cacc305d105e07
+SHA1: 89d1bc50745ecd804d8c4cc7dc5c3338b2f54eae
+SHA256: 2f8274de2a2b64607cf021ef57f71a8e1e1e4feb3b9e17df8a5a657688ae5041
+Section: Archiving
+Priority: important
+Description: standard Windows compression tool
+Tag: purpose::console, role::hacker
+
