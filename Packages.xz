@@ -16,60 +16,60 @@ Description: finger, fingerd, last, lsvfs, md, ps
 Tag: purpose::console, role::hacker
 
 Package: apt
-Version: 1.7.4
+Version: 1.8.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
-Depends: apt-key, apt-lib (>= 1.7.4), berkeleydb, cy+cpu.arm64
+Depends: apt-key, apt-lib (>= 1.8.0), berkeleydb, cy+cpu.arm64
 Replaces: apt7
-Provides: apt7 (= 1.7.4)
-Filename: debs/apt/apt_1.7.4_iphoneos-arm.deb
-Size: 136488
-MD5sum: ca85834d75a9b6d754283cf6a56049dd
-SHA1: b3b46bad03f8a18f0b61d88c3b99daf59d29cce7
-SHA256: 65a8753c35e6f7e936543509c4b51839dc6e5ebca4fd44e3a2b385ccf345c0c5
+Provides: apt7 (= 1.8.0)
+Filename: debs/apt/apt_1.8.0_iphoneos-arm.deb
+Size: 141428
+MD5sum: 06dac20aae0e5e242f3e2fb64f0120ee
+SHA1: ee2e2fc378abc2c997d778e2e991da90afbd3514
+SHA256: 57e1b1c445d73ef3d1dc64bf8f65f99797d4e8da6799f0aee55dafdec4ceb69f
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
-Name: APT 1.7 Strict
+Name: APT 1.8 Strict
 
 Package: apt-key
-Version: 1.7.4
+Version: 1.8.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
-Depends: apt-lib (>= 1.7.4), cy+cpu.arm64
+Depends: apt-lib (>= 1.8.0), cy+cpu.arm64
 Replaces: apt7-key
-Provides: apt7-key (= 1.7.4)
-Filename: debs/apt/apt-key_1.7.4_iphoneos-arm.deb
-Size: 8728
-MD5sum: 3566d52973e6897aa6d688053e4f812a
-SHA1: 41fd0c04a604b19941dcf2ecd3d3d89d91fd63dc
-SHA256: eb2a65b2a8dad4fbd8a1f907414f55b97ccb3984236d6a333d30f2c389b331cf
+Provides: apt7-key (= 1.8.0)
+Filename: debs/apt/apt-key_1.8.0_iphoneos-arm.deb
+Size: 8864
+MD5sum: 1eeaefef5fa9d62f6dabf78ef7f65544
+SHA1: 46eabd08b762e40c9e76811d6bd5df6f1f508c06
+SHA256: a9d419ae8292e819d794c67618a2c88fb4f24b362f299dea87f2d23c0eb54397
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
-Name: APT 1.7 (apt-key)
+Name: APT 1.8 (apt-key)
 
 Package: apt-lib
-Version: 1.7.4-sileo
+Version: 1.8.0-sileo
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
 Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
-Conflicts: apt7-ssl
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
 Replaces: apt7-lib
-Provides: apt7-ssl, apt7-lib (= 1.7.4)
-Filename: debs/apt/apt-lib_1.7.4-sileo_iphoneos-arm.deb
-Size: 1544676
-MD5sum: 2e59913dbebaa442fe08a88d7e707a7b
-SHA1: 789eece30a3bbac8ac9d89a5cc20f81c41703fa5
-SHA256: f51bf280b15e75387c5bb3777d03b3de664b87704f0e016d8ac1c19d1403199f
+Provides: apt7-ssl, apt7-lib (= 1.8.0)
+Filename: debs/apt/apt-lib_1.8.0_sileo_iphoneos-arm.deb
+Size: 1569080
+MD5sum: 835198833de311d43c30949b315ec87c
+SHA1: eb14af03e74d6ed0065514602ab4698fe5af3828
+SHA256: 64bfb78cb9c75c53bb00d83963fb1a74c0a3f43bd64ede8ffc9ffd7122ef9e6c
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
-Name: APT 1.7 Strict (lib)
+Name: APT 1.8 Strict (lib)
 
 Package: bash
 Version: 4.4.18-1
@@ -148,6 +148,45 @@ Priority: important
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta6
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: debs/com.anemonetheming.anemone3_3.0~beta6_iphoneos-arm.deb
+Size: 11295856
+MD5sum: e67898bf398d84150830f92e0555f80e
+SHA1: 32f1e3d35fa241a9bc4edb47585a79e2d092bc93
+SHA256: a2bb2f6d6533e3b91efeae43b79d91f241f53bb8a1433619d20fde380a443056
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
+
+Package: com.anemonetheming.anemone3-extsb
+Version: 3.0~beta4
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta3)
+Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
+Provides: org.coolstar.classicdock, org.coolstar.classicbadges
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta4_iphoneos-arm.deb
+Size: 23892
+MD5sum: 6a9f00d09c111d07415ca31f5504e1af
+SHA1: 7a86bfc8587c3cda57fe437b8eda4df2aa5209d3
+SHA256: 76ccd901c1faf1f57b7a1bd515376155dc486d589ac25d34743811e6801a09bb
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Name: Anemone 3 SpringBoard Extension Pack
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
+
 Package: com.ex.libsubstitute
 Version: 0.0.8-coolstar
 Architecture: iphoneos-arm
@@ -221,67 +260,25 @@ Description: flexible multi-protocol file transfers
 Name: cURL
 
 Package: cydia
-Version: 2.1-1
+Version: 2.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
-Depends: cydia-gui | org.coolstar.sileo, apt7-lib, apt7-key, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), cy+cpu.arm64
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: org.coolstar.sileo, apt7-lib, apt7-key, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds, uikittools (>= 2.0.1), cy+cpu.arm64
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
-Filename: debs/cydia_2.1-1_iphoneos-arm.deb
-Size: 94932
-MD5sum: e71420514359fd457ef5015250ec3a4b
-SHA1: 11223897069e466eea9cb2f494da8b9dec3cd820
-SHA256: 313e85fa166af61fa7cf377d3c537aef375b307301db27755bf21bcf560d593f
+Filename: debs/cydia_2.2_iphoneos-arm.deb
+Size: 94920
+MD5sum: 99998a8e49138f2aa70f028d86fb6c09
+SHA1: 41624fb2b4f6bbdd224c13a0efca3d33b9c06b81
+SHA256: 13432b2029344ec6381d438b86b26ab6e69e55233f08f6cbd876e3554cb498f8
 Section: Packaging
 Priority: required
 Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
 Tag: cydia::essential
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Cydia Compatibility Package
-
-Package: cydia-gui
-Version: 1.1.30-5
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: cy+cpu.arm64
-Replaces: cydia
-Filename: debs/cydia-gui_1.1.30-5_iphoneos-arm.deb
-Size: 1064132
-MD5sum: a3eb89fc15ff3405735cb9d935a7e98c
-SHA1: a84b5f59d5ddcc2c52309ae934bad02c89ea264d
-SHA256: 306bca0397e8a2bd50d2974f5df634eb0b3c4bff3f932a810f68c7730b9646b6
-Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia (GUI Only)
-
-Package: cydia-lproj
-Version: 1.1.12
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 712
-Depends: cydia
-Conflicts: org.thebigboss.russiancydia
-Replaces: cydia, org.thebigboss.russiancydia
-Provides: org.thebigboss.russiancydia
-Filename: debs/cydia-lproj.deb
-Size: 66876
-MD5sum: 50df4fbd8f163f553a5ba6e4e8fcad15
-SHA1: e3cf092b6e54261f59c7bcbf483d60479a9f86e4
-SHA256: be77311b214122e5ff7dabd001c96b8cd8a4e479362f3163a557d8dd9b520f31
-Section: Packaging
-Priority: required
-Description: languages and translations for Cydia
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia-lproj/
-Name: Cydia Translations
 
 Package: darwintools
 Version: 1-7
@@ -851,17 +848,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 0.8b12
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
-Depends: apt7 (>= 1.7.0), apt7-lib (>= 1.7.0-sileo), apt7-key (>= 1.7.0), dpkg (>= 1.19.2-4), cydia (>= 1.9.1), cy+cpu.arm64
-Conflicts: cydia-gui (<= 1.1.30-3)
-Filename: debs/org.coolstar.sileo_0.8b12_iphoneos-arm.deb
-Size: 1918772
-MD5sum: 56d887c2f7db69cd2f1807be8b45f58c
-SHA1: 48f003f6dc668ef969513bc0c3116ecb28d7757a
-SHA256: ebb0881cb1b1d7eca607532c1ad863af952712437f5d8c8a3a4d1cbc19458d82
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
+Conflicts: cydia-gui
+Filename: debs/org.coolstar.sileo_1.0_iphoneos-arm.deb
+Size: 2081712
+MD5sum: 57f97850a9afd70fb71ea867540986d1
+SHA1: 435d98e635113dd9dade849694f39048f0b30784
+SHA256: a023b0531286f0d4e58a6ffee446a9d228561cf692745b7a3449403004c618a7
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
