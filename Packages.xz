@@ -188,15 +188,15 @@ Name: Anemone 3 SpringBoard Extension Pack
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
 
 Package: com.ex.libsubstitute
-Version: 0.0.8-coolstar
+Version: 0.0.9-coolstar
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 8.0), cy+cpu.arm64
-Filename: debs/com.ex.substitute_0.0.8-coolstar_iphoneos-arm.deb
-Size: 25604
-MD5sum: 01eb0b22eb857533ac8b6d7ede91acaf
-SHA1: d1dbab4b9125844af689d9bdbb12a9c84d25c2ac
-SHA256: 886e8f7d6d7aee12ed7bd9718e7571ac6cad70ddce63f56be3203a6df340c063
+Filename: debs/com.ex.substitute_0.0.9-coolstar_iphoneos-arm.deb
+Size: 26356
+MD5sum: aeb8948d0b5c66557737db61661bcf0c
+SHA1: d358b74bdcecfbf0a6d7ea5e60ba22c7a631da92
+SHA256: a3ad1ee46a4d2b62671c6cac6677bcd30f043fdf6c8699edb0caa9235637ed2b
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution (library only)
