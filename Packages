@@ -571,15 +571,15 @@ Tag: purpose::console, role::hacker
 Name: IOKit Tools
 
 Package: ldid
-Version: 2:1.2.2-coolstar2
+Version: 2:3.0-coolstar2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Installed-Size: 272
-Filename: debs/ldid_2_1.2.2-coolstar2_iphoneos-arm.deb
-Size: 25904
-MD5sum: 97ac0b9a4cbbef2834ce54364e76d205
-SHA1: cc63ded45b112be82938a23db1210d259b96ebb6
-SHA256: 2c82c393f82fadec3617d8c972d28f081b96370f2e0b918f76c7d4d84e00ac27
+Filename: debs/ldid_2_3.0-coolstar2_iphoneos-arm.deb
+Size: 25900
+MD5sum: 582e177996e687ac0efb51a07d83eb5d
+SHA1: 38e192318d6f3aa7ce35378da49929e9557dcab0
+SHA256: 9dd0d8490d2d42a393b68423c2c9cbdb2f90008aba611faa6ab10772e2019659
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
