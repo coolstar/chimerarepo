@@ -149,18 +149,18 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta6
+Version: 3.0~beta7
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta6_iphoneos-arm.deb
-Size: 11295856
-MD5sum: e67898bf398d84150830f92e0555f80e
-SHA1: 32f1e3d35fa241a9bc4edb47585a79e2d092bc93
-SHA256: a2bb2f6d6533e3b91efeae43b79d91f241f53bb8a1433619d20fde380a443056
+Filename: debs/com.anemonetheming.anemone3_3.0~beta7_iphoneos-arm.deb
+Size: 11296540
+MD5sum: b5a5edce4e48819a41fe680fe589cbc9
+SHA1: 0dc54c82d36b00c67a393d42bf5c9d8f702d9592
+SHA256: 6c4fdc542811188b7b7a6fd380bd8a268d02db47efaa32e9ce1c18658a9f6b42
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
