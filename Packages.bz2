@@ -848,23 +848,23 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.0.6
+Version: 1.0.6-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui
-Filename: debs/org.coolstar.sileo_1.0.6_iphoneos-arm.deb
-Size: 2108736
-MD5sum: 3d6348d54750b5f230d4936681e072cc
-SHA1: 67b5d737d0b9d55de7147f0d1402bcd47e599958
-SHA256: f60b8cd932d55eb67d87fc72c6047cb76edfef090979a4e3d6f7387c7af43a09
+Filename: debs/org.coolstar.sileo_1.0.6-1_iphoneos-arm.deb
+Size: 2108732
+MD5sum: 7f6120a6427ef8533733dd31ef8e68a2
+SHA1: 7e20250805d3fcbb445a46835edb6a00c3980950
+SHA256: 288ab94521b54c75c7dd4cbcab170edf0a4ccdd20b27defee590d4efee05cae8
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
 Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo (Beta)
+Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.tweakinject
