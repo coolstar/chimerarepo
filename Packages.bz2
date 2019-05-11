@@ -280,6 +280,22 @@ Tag: cydia::essential
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Cydia Compatibility Package
 
+Package: cydia-gui
+Version: 99.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cydia, org.coolstar.sileo, cy+cpu.arm64
+Filename: debs/cydia-gui_99.0_iphoneos-arm.deb
+Size: 908
+MD5sum: a80991fe592da67f18ba36aadf75f381
+SHA1: f54eaa10e95c58a6c8a71b831af01e9682b979bf
+SHA256: 84604ba03812cef3c43bc7eaad7281e619673b7cd3d8a1eaa3e4470b6cb936d7
+Section: Packaging
+Priority: standard
+Description: Dummy package to ease Cydia -> Sileo Transition
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Cydia (Transition Package)
+
 Package: darwintools
 Version: 1-7
 Architecture: iphoneos-arm
@@ -848,17 +864,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.0.6-1
+Version: 1.0.6-2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
-Conflicts: cydia-gui
-Filename: debs/org.coolstar.sileo_1.0.6-1_iphoneos-arm.deb
-Size: 2108732
-MD5sum: 7f6120a6427ef8533733dd31ef8e68a2
-SHA1: 7e20250805d3fcbb445a46835edb6a00c3980950
-SHA256: 288ab94521b54c75c7dd4cbcab170edf0a4ccdd20b27defee590d4efee05cae8
+Conflicts: cydia-gui (<<99.0)
+Filename: debs/org.coolstar.sileo_1.0.6-2_iphoneos-arm.deb
+Size: 2110504
+MD5sum: 1fe3b1ed30a4c9f082eb8884e18acdcf
+SHA1: 7960aee4ca0c68b55b33164c80d522c0010eff21
+SHA256: 8627a0f9040403592c312caf82457f5ad99d6ef0c6da9e43d627e31fb194b5d1
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
