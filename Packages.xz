@@ -52,20 +52,20 @@ Description: repository encryption key management tool
 Name: APT 1.8 (apt-key)
 
 Package: apt-lib
-Version: 1.8.0-sileo
+Version: 1.8.0-sileo2
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
 Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
-Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui (<<99.0)
 Replaces: apt7-lib
 Provides: apt7-ssl, apt7-lib (= 1.8.0)
-Filename: debs/apt/apt-lib_1.8.0_sileo_iphoneos-arm.deb
-Size: 1569080
-MD5sum: 835198833de311d43c30949b315ec87c
-SHA1: eb14af03e74d6ed0065514602ab4698fe5af3828
-SHA256: 64bfb78cb9c75c53bb00d83963fb1a74c0a3f43bd64ede8ffc9ffd7122ef9e6c
+Filename: debs/apt/apt-lib_1.8.0_sileo2_iphoneos-arm.deb
+Size: 1569088
+MD5sum: ce2b270fe9fa5cf842d7bce64772dd96
+SHA1: 6a99e3942c21dae989a5c307e5f94fe197d478e3
+SHA256: b20ce9ef8e9cedb0b10f3b2ba125c7c9d4e00edddc88902e8a324a93a2e21bec
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
