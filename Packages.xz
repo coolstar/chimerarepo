@@ -864,17 +864,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.0.6-2
+Version: 1.0.7
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.0.6-2_iphoneos-arm.deb
-Size: 2110504
-MD5sum: 1fe3b1ed30a4c9f082eb8884e18acdcf
-SHA1: 7960aee4ca0c68b55b33164c80d522c0010eff21
-SHA256: 8627a0f9040403592c312caf82457f5ad99d6ef0c6da9e43d627e31fb194b5d1
+Filename: debs/org.coolstar.sileo_1.0.7_iphoneos-arm.deb
+Size: 2055000
+MD5sum: 9a4ae8b0696d4fe8104f90e4e258b444
+SHA1: 726b422f1fc203a67af3ef586f6a0d02825680a2
+SHA256: 3d3e6fdc25106bf29b4e61f1f4ed6e8b2d594e874cecd4ce38bfc45332bfb2e9
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
