@@ -203,6 +203,27 @@ Description: Substrate substitute for code substitution (library only)
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.7~beta5-coolstar-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 800
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.7~beta5-coolstar-1_iphoneos-arm.deb
+Size: 30320
+MD5sum: 7976fff5ff57405ce196576b8c4d0a0b
+SHA1: 228bf8bccbd11c398e419f04d05a0f7067913a41
+SHA256: 5047444908ecdd158ce97a8fc8bd4adf6e20a4b13d81a07e79cec95678ee3e8f
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: coreutils
 Version: 8.30
 Architecture: iphoneos-arm
