@@ -869,15 +869,15 @@ Depiction: https://cydia.saurik.com/info/openssh/
 Name: OpenSSH
 
 Package: org.coolstar.classicdock
-Version: 3.0
+Version: 3.0.1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 7.0), com.anemonetheming.anemone3 | com.anemonetheming.anemone
-Filename: debs/org.coolstar.classicdock_3.0_iphoneos-arm.deb
-Size: 363840
-MD5sum: ae93ef2a86eb19690a1283b6b3d14c85
-SHA1: dce53e177ac39e49848ac4c7fcb39220b87b5eb7
-SHA256: ed75d3f919c4afd74f34343ac6e3e997228422647490e07d1b5d7d31f5cbf6c3
+Depends: firmware (>= 7.0), com.anemonetheming.anemone3-extsb | com.anemonetheming.anemone
+Filename: debs/org.coolstar.classicdock_3.0.1_iphoneos-arm.deb
+Size: 363920
+MD5sum: d14bf07a6a193e1b15e45c0ed19e6446
+SHA1: 81cf07dcbbc0f3d4bfef7a68858a00ad30046450
+SHA256: 44c0a10462e9972f7c80ea08966458bea93765dbed4a2bf6b47e606509ebdd77
 Section: Themes
 Priority: optional
 Description: Bring back iOS 6 dock to iOS 7 or higher
