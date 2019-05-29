@@ -149,18 +149,18 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta7
+Version: 3.0~beta8
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta7_iphoneos-arm.deb
-Size: 11296540
-MD5sum: b5a5edce4e48819a41fe680fe589cbc9
-SHA1: 0dc54c82d36b00c67a393d42bf5c9d8f702d9592
-SHA256: 6c4fdc542811188b7b7a6fd380bd8a268d02db47efaa32e9ce1c18658a9f6b42
+Filename: debs/com.anemonetheming.anemone3_3.0~beta8_iphoneos-arm.deb
+Size: 11007424
+MD5sum: 11699d4c9f22a0b32acafd6e3d5ee6cb
+SHA1: a4e5ce744949197b6afcde295b0566fd3698471e
+SHA256: 7d20d141734fbac85f12adecd39f25f2a1346b94e7c382e3ad9c769314948574
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -169,17 +169,17 @@ Name: Anemone 3
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
 Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta5
+Version: 3.0~beta6
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
-Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta3)
+Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta8)
 Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
 Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta5_iphoneos-arm.deb
-Size: 26688
-MD5sum: 6840d75bd45e5221fd3c0950d88c6f26
-SHA1: f28b59f8b779f2d3e86adda18dd46bb57f241d4b
-SHA256: ca85d54c2923056b9cce88b9536da32046c2cb3ae1614a7a088cc7591c1ab652
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta6_iphoneos-arm.deb
+Size: 32192
+MD5sum: 2df63ffb3a49cdb1bc88fa1a06fd711c
+SHA1: f8be56f10ce3fc72da6a17da82718da33473cbd5
+SHA256: 6fe8fc672164f838b98267a33efa1f6cb1d027aae3a3fff7fba9cdac66f39b94
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -867,6 +867,24 @@ Description: secure remote access between machines
 Tag: purpose::daemon, purpose::console, role::enduser
 Depiction: https://cydia.saurik.com/info/openssh/
 Name: OpenSSH
+
+Package: org.coolstar.classicdock
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 7.0), com.anemonetheming.anemone3 | com.anemonetheming.anemone
+Filename: debs/org.coolstar.classicdock_3.0_iphoneos-arm.deb
+Size: 363840
+MD5sum: ae93ef2a86eb19690a1283b6b3d14c85
+SHA1: dce53e177ac39e49848ac4c7fcb39220b87b5eb7
+SHA256: ed75d3f919c4afd74f34343ac6e3e997228422647490e07d1b5d7d31f5cbf6c3
+Section: Themes
+Priority: optional
+Description: Bring back iOS 6 dock to iOS 7 or higher
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: ClassicDock / ModernDock
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.classicdock
 
 Package: org.coolstar.semirestore11-lite
 Version: 11.0
