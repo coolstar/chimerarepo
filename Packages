@@ -203,6 +203,24 @@ Description: Substrate substitute for code substitution (library only)
 Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
+Package: com.justinpetkovic.youtubetools
+Version: 3.0-1
+Architecture: iphoneos-arm
+Maintainer: Justin Petkovic
+Installed-Size: 304
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Filename: debs/com.justinpetkovic.youtubetools_3.0-1_iphoneos-arm.deb
+Size: 26012
+MD5sum: 9c91289adb284844a5eb290e987c940e
+SHA1: 5d2f660d9f7a89387e2b9be91f5f5820d1cbdd26
+SHA256: cd36b7cc3789953631bd8c08a9c3f1358cc3a4868c4eb7dda74c4b5e94539096
+Section: Tweaks
+Description: Essential toolbox for YouTube app.
+Author: Justin Petkovic
+Icon: https://coolstar.moe/sileoassets/depictions/assets/com.justinpetkovic.youtubetools-icon.png
+Name: YouTube Tools
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.justinpetkovic.youtubetools
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.7~beta5-coolstar-1
 Architecture: iphoneos-arm
@@ -903,17 +921,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.0.9
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.0.9_iphoneos-arm.deb
-Size: 2104704
-MD5sum: 16a43937e965790159053347337d6b14
-SHA1: f0f8bde68118c19472097b376c9bdc8a41babaf5
-SHA256: 9a8ed688808f4f5bc5e6761053861df29880f0d5cabef3f8a7f0ecf52d9fb7b6
+Filename: debs/org.coolstar.sileo_1.1.0_iphoneos-arm.deb
+Size: 2087396
+MD5sum: 723cb15c0216179ff31ca9793726a6b8
+SHA1: b71f5165f0317404988c66fe08bb53310a8244f3
+SHA256: 920d5339bc7f9ef309eac455ee194569a9b11b7cb0576ef8cc8da2aba5471a05
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
