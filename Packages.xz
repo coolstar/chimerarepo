@@ -955,6 +955,24 @@ Description: General purpose tweak loader with safe mode in case of crashes
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Tweak Injector
 
+Package: org.swift.libswift
+Version: 5.0-electra2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 7.0)
+Filename: debs/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
+Size: 23330860
+MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
+SHA1: 020e2926035d63cdb59e62b8d6a63cee88f0a14f
+SHA256: 07adbccbde8682adb44e8dcf0bdd6bef5c909d879ca654e6533f8a52f1884ced
+Section: Development
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Dev: kabiroberai
+Name: libswift (stable)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
+
 Package: p7zip
 Version: 16.02
 Architecture: iphoneos-arm
