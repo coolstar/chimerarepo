@@ -149,18 +149,18 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta11
+Version: 3.0~beta12
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush, firmware (>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta11_iphoneos-arm.deb
-Size: 662716
-MD5sum: 6a50f76512c60f08229fbecef644ad2c
-SHA1: f4218548dd1cb17368c3de8def93219f11585c16
-SHA256: 0c65fa75bf537dfa71541c02f610ad545beb03dac834b64a3a55f83eab11352e
+Filename: debs/com.anemonetheming.anemone3_3.0~beta12_iphoneos-arm.deb
+Size: 663460
+MD5sum: 450f7e08798ec2f31141d26f3e54454f
+SHA1: 8bc39c224582c0610415945ad862b3bfc8e53eba
+SHA256: 67028a7473995d7317294e6585cccc8302a89d5efd16735fe2845e4784310d65
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -169,17 +169,17 @@ Name: Anemone 3
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
 Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta7
+Version: 3.0~beta8
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta8)
 Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
 Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta7_iphoneos-arm.deb
-Size: 36164
-MD5sum: 1e4a01197d121cf07e2330acd7d07dc6
-SHA1: 79c347da158cc536a44ba1a555b7383bfff3bb68
-SHA256: 9145c80af69b9ea276ad008669ebe9e46325daf2ec1a63a85ed08e940c27ea5b
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta8_iphoneos-arm.deb
+Size: 34424
+MD5sum: 5566932d986b67b1b13bbba227a864ff
+SHA1: 03a41670bb523e12a5021a95a3432e59afe6ad8e
+SHA256: cdcb33fb3b194a259fadf43b105f2998778f3625d2dd7695eda8010d30162455
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
