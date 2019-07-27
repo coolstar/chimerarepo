@@ -149,18 +149,18 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta13
+Version: 3.0~beta14
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush, firmware (>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta13_iphoneos-arm.deb
-Size: 663136
-MD5sum: 2adcdfca7378bd9aa3463a448b3a4ff4
-SHA1: c918aa1eb6e04871d8051aa664a42005fb26d515
-SHA256: 5d89cc4647b802506f299448c1d89af888784112d136dd1d2c26fb59b22fdb3d
+Filename: debs/com.anemonetheming.anemone3_3.0~beta14_iphoneos-arm.deb
+Size: 664004
+MD5sum: 42eb633021491ed03814d55700cc0a18
+SHA1: 63df82994ef1fe7ca0d15dda806395148340b87d
+SHA256: 4cd2400cbc5e6665eb8a4b338820204e2677375ff26f62d728e6d49ed3c4c18b
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -921,17 +921,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.1.5
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.1.5_iphoneos-arm.deb
-Size: 2089816
-MD5sum: ccd18de01148bc65d81d2482635831d1
-SHA1: fa4c37b3938b8195b372802739feb4a96c1c71a4
-SHA256: d088982651d608bacef3f175c34f2bc9325e86470ba94dab02667c08ed7ce249
+Filename: debs/org.coolstar.sileo_1.2.0_iphoneos-arm.deb
+Size: 2116636
+MD5sum: 6d33eaef5b146264ced6b23c761e62aa
+SHA1: 828af7d0c0d8346d8d4ffbdc58d60b880766d1b3
+SHA256: 5189d3dce518cf33e1adb711fd632162c1df2a680d2720c43c5cc64b38c2a0ce
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
