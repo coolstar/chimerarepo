@@ -921,37 +921,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.2.4
+Version: 1.2.6
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.2.4_iphoneos-arm.deb
-Size: 2115856
-MD5sum: d9c5e1a6b0ef21e1d2798e2c321b3502
-SHA1: d194320b2fa22c2506746250fee55d59886a6aa3
-SHA256: d94c2c2494dd5840cd53f09e2c958df2e71479c4852030d718aea720e6af3c1b
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
-
-Package: org.coolstar.sileo
-Version: 1.2.5
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
-Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.2.5_iphoneos-arm.deb
-Size: 2116128
-MD5sum: eb282b15ae578a82e8fc95b7a466756f
-SHA1: 83dd7f935679c08d116eea0e185f021d8e69dfac
-SHA256: afa396bec7bfd108b0745af9a60c75168cb99bb94dbc15836830d919b8c8bbd6
+Filename: debs/org.coolstar.sileo_1.2.6_iphoneos-arm.deb
+Size: 2177748
+MD5sum: 85d37312363ccba07c140541e5e5a275
+SHA1: 29fe7e6d3dafc80558de438e0c1b8815f5454118
+SHA256: e982b702abc430a882be2ad7bf0e80cbea69afff4be70956c7186eae29355c7c
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
