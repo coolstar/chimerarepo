@@ -921,43 +921,23 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.2.8
+Version: 1.2.9
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.2.8_iphoneos-arm.deb
-Size: 2195500
-MD5sum: 1a4470777668d7d6475c163bbf400657
-SHA1: f64c83d90bd1f96c0980f1b9ad8a832a0c214477
-SHA256: d71ad00c07a9dfe3b5b49fa557bf256b72fbdada464efcfe65d8dba5b9dcb668
+Filename: debs/org.coolstar.sileo_1.2.9_iphoneos-arm.deb
+Size: 2229952
+MD5sum: 17da8e637fcb6da8a31fffda9a12f2dd
+SHA1: 1c4d299cdfeb9adb38c0a5fc6c6faba6cc476b64
+SHA256: fc6c819b92e2a3d5f018c00d350bf9f67044ce5df1fde74e51a303050f402f0c
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
 Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
-
-Package: org.coolstar.sileobeta
-Version: 1.2.9b3
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo
-Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.2.9b3_iphoneos-arm.deb
-Size: 2222796
-MD5sum: e9476cd85f6843a13674a192c44f6147
-SHA1: ca7dd91fb4109130c2fd42ad002eb42b9b80eac6
-SHA256: 171e21224f65ad373ce42d8294d38fd6cd6983ff51e1c0225d7374852f5d92e2
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo (Beta Channel)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileobeta
