@@ -169,17 +169,17 @@ Name: Anemone 3
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
 Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta8
+Version: 3.0~beta9
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta8)
 Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
 Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta8_iphoneos-arm.deb
-Size: 34424
-MD5sum: 5566932d986b67b1b13bbba227a864ff
-SHA1: 03a41670bb523e12a5021a95a3432e59afe6ad8e
-SHA256: cdcb33fb3b194a259fadf43b105f2998778f3625d2dd7695eda8010d30162455
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta9_iphoneos-arm.deb
+Size: 34468
+MD5sum: 7eadeb48f2c3d29a5868bd4524af7c4f
+SHA1: dec2f8acfb8237e25768213f207f7b0cdf75eb17
+SHA256: d6f8f07f2d492aa7b9383f6819a3df104fb3f1dbd266a0a893590f6ebf161968
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
