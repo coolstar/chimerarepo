@@ -1319,3 +1319,19 @@ Priority: important
 Description: standard Windows compression tool
 Tag: purpose::console, role::hacker
 
+Package: zsh
+Version: 5.7.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: ncurses, cy+cpu.arm64
+Filename: debs/zsh_5.7.1_iphoneos-arm.deb
+Size: 1448112
+MD5sum: ee6c8a8db74bc805f0bc076c7274b7db
+SHA1: 0372d52ad4aa14501045177ee864bf479c623e9c
+SHA256: 68f7f80137cf4de4f381f55926328a4be68240fcd768d0a2c086dd0343512a4d
+Section: Terminal_Support
+Priority: required
+Homepage: http://www.zsh.org/
+Description: a shell designed for interactive use, although it is also a powerful scripting language
+Name: Z Shell (zsh)
+
