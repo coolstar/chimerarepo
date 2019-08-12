@@ -1,14 +1,14 @@
 Package: profile.d
-Version: 0-3
+Version: 0-4
 Architecture: iphoneos-arm
 Maintainer: Coolstar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8), system-cmds (>=805.220.1)
 Depends: zsh
-Filename: debs/profile.d_0-3_iphoneos-arm.deb
+Filename: debs/profile.d_0-4_iphoneos-arm.deb
 Size: 1220
-MD5sum: 9140f2aebe5157f976e78028d2b39ac5
-SHA1: 6417bb334165da193741c4cfc5ec6325fffae9c3
-SHA256: a60449e47beb0bd7f99fe004d8b3cc1bc4d4f1126d63bee2f0699c56a5b9b47c
+MD5sum: 855b36a6e032402d67665ca70c20652b
+SHA1: c375ab8c6fead8470dc7657f5994eafff7b7f7c1
+SHA256: ac7f7dcd43a604c6a5c63bb4ee8fe29edeb2cff14d47879eedc629dddfbf84c1
 Section: Administration
 Priority: standard
 Description: makes packaging for /etc/profile reasonable
