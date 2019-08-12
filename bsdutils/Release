@@ -1,0 +1,17 @@
+Origin: Electra/Chimera Beta BSD Utilities
+Label: Electra/Chimera Beta BSD Utilities
+Suite: beta
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Codename: electrarepo64-bsdbeta
+Description: Core BSD Utilities for Electra and other arm64 iOS jailbreaks
+Date: Mon, 12 Aug 2019 08:12:15 +0000
+MD5Sum:
+ c8eea602ed1e0c9e0ec1f5aab4793122 529 Packages
+ 2773de6267440f94466757597daced94 422 Packages.bz2
+ b52ea0f7f0add52b824e06d86b2fa74b 464 Packages.xz
+SHA256:
+ d82b02caf34d0ef8697fc92d7b25f749fe99093aa8413541aa65977b13f04b26 529 Packages
+ a0bc73b76c95fdd2767d69852212c374f39832ffb37dd834d50561971ddaf51c 422 Packages.bz2
+ fb4f0da418ece3a56d05d010547e7c698998a83ac906c306c4f63d09449adcf1 464 Packages.xz
