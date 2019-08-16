@@ -157,13 +157,13 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8), file-cmds (>=272.220.1) | bsdprep
 Depends: cy+cpu.arm64
 Conflicts: coreutils (<= 8.30), findutils (<= 4.6-1)
-Replaces: coreutils (<= 8.30), findutils, bsdprep
-Provides: killall, which, findutils, bsdprep
+Replaces: coreutils (<= 8.30), findutils
+Provides: killall, which, findutils
 Filename: debs/shell_cmds_203-3_iphoneos-arm.deb
-Size: 109708
-MD5sum: 6c4f9e4ea841e840b5920066e3b7d33e
-SHA1: 9385eea11165b81384b01fa82b5fa4443a1da523
-SHA256: 6aa1fcbf945efb28d3c1c93590d49f1ba06f66c04ba6490c1e9380e291c71bfc
+Size: 109704
+MD5sum: 73cca556a29d445bd2665dd2c6ead9fd
+SHA1: 90f605fce2b0a6f85b8bf0fca119bc6dc16a0da6
+SHA256: 29f50b6bf07b43a0a75aa7d69c0dae5829c5d73d9f519f62b15d684caa8f99b4
 Section: Administration
 Priority: important
 Description: killall, mktemp, renice, time, which
