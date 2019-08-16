@@ -1069,20 +1069,18 @@ Description: temporarily assume root privileges
 Tag: purpose::console, role::hacker
 
 Package: system-cmds
-Version: 805.220.1-2
+Version: 805.220.1-3
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: firmware-sbin, cy+cpu.arm64
-Conflicts: coreutils (<= 8.30)
-Replaces: coreutils (<= 8.30)
 Provides: login, passwd, reboot
-Filename: debs/system-cmds_805.220.1-2_iphoneos-arm.deb
-Size: 94872
-MD5sum: de5c80e1e22561cdf8c8552f85cb4e24
-SHA1: aa26dcc7882ba78fccd950b1cd8aa8302fc18535
-SHA256: 46e7335c273daa90f373db77af65cfa55e2a1a2288fe865caece0c6f1ef08b1b
+Filename: debs/system-cmds_805.220.1-3_iphoneos-arm.deb
+Size: 94844
+MD5sum: b8e7f9f3e6e5166c34a26bcba83cbf86
+SHA1: 56f66ee330302109c78bd4f80a3c469fad373511
+SHA256: d436f9eaca18104ce76ebabcff7096bb0e361abbb651f351f0334d6f152a3870
 Section: Administration
 Priority: required
 Description: iostat, login, passwd, sync, sysctl
