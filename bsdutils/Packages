@@ -119,6 +119,22 @@ Priority: optional
 Description: Dummy package for upgrade path
 Name: grep (Dummy)
 
+Package: misc-cmds
+Version: 34
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.30)
+Filename: debs/misc-cmds_34_iphoneos-arm.deb
+Size: 28232
+MD5sum: d75aa5484b81ca208d3a2b19c2d03fc2
+SHA1: 93a42597e5978ec7467d04865460c3e22587ae83
+SHA256: 6651ddfb4d139846e597d8a32d03b21f2cc20cee07495418d6bc89f19c47d279
+Section: Administration
+Priority: important
+Description: calendar, leave, ncal, tsort, units
+
 Package: profile.d
 Version: 0-4
 Architecture: iphoneos-arm
