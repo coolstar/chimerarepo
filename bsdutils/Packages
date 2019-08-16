@@ -1,3 +1,124 @@
+Package: bsdprep
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Filename: debs/bsdprep_1.0_iphoneos-arm.deb
+Size: 6224
+MD5sum: 79a0a80642c18629ae825f3418fde280
+SHA1: 30a2ecd4bbfb03df85c61f94c50a70981aae219e
+SHA256: c7852035b4310822d0aff23278249f9eba5efd63cd3f0477f671f600567f1626
+Section: Utilities
+Priority: important
+Description: temporary utilities to assist in transitioning to BSD tools
+Tag: purpose::console, role::hacker
+
+Package: coreutils
+Version: 8.30-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: coreutils-bin (>= 8.30), profile.d, cy+cpu.arm64
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Filename: debs/coreutils_8.30-1_iphoneos_arm.deb
+Size: 988
+MD5sum: 51bc534cc86b261ac404c5d3993375cb
+SHA1: 3100c3737114aeb7fd3b278fada50264e5b967a7
+SHA256: c190c4dd8a6e04e33f1b7b96aead2499f90f5bdba4867b171c6022f1be649e90
+Section: Utilities
+Priority: standard
+Description: Symlinks GNU Core Utilities paths to BSD
+Name: Core Utilities (Symlinks)
+
+Package: coreutils-bin
+Version: 8.30-1
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: bsdprep | file-cmds (>=272.220.1)
+Depends: cy+cpu.arm64, shell-cmds (>=203-3), file-cmds (>=272.220.1), text-cmds (>=99)
+Conflicts: coreutils (<= 8.29)
+Provides: dirname, kill, mktemp
+Filename: debs/coreutils-bin_8.30-1_iphoneos-arm.deb
+Size: 1104
+MD5sum: 24400786f75be4f445ede7e8ea5adee8
+SHA1: f9ad99028a0b8fd2ae60fa4558b4a30b5f38c2fa
+SHA256: 9b463a1d3bf7b839c034788761ac63ca137ebcaca93bead2e11cd0569e6cce98
+Section: Utilities
+Priority: required
+Description: Symlinks the GNU paths for /bin to BSD
+Name: Core Utilities (/bin)
+
+Package: cydia
+Version: 2.2-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: org.coolstar.sileo, apt7-lib, apt7-key, darwintools, debianutils, dpkg (>= 1.18), sed, shell-cmds, system-cmds (>= 805.220.1-2), uikittools (>= 2.0.1), cy+cpu.arm64
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_2.2-1_iphoneos-arm.deb
+Size: 94940
+MD5sum: 392f7f2082b17a16e008930343a0d571
+SHA1: 5d57cdab7105bd1828ab41c58091dcff2da61a9e
+SHA256: 5f62a1f2f11b99cc91e0f5974ee5259ea832ca7b79c529713a03b8fc526224fe
+Section: Packaging
+Priority: required
+Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
+Tag: cydia::essential
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Cydia Compatibility Package
+
+Package: file-cmds
+Version: 272.220.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8), bsdprep | coreutils-bin (>= 8.30-1)
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.30)
+Filename: debs/file_cmds_272.220.1_iphoneos-arm.deb
+Size: 137364
+MD5sum: fec1f25146c10409605fadbaa994aaed
+SHA1: 27bfcbeb5b612bb1cdf344cae5f62f87263b8307
+SHA256: 682fd3343dd148e6161f35a1e985238ab7449fd19819b5bb73c29a260dc2d721
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
+Package: findutils
+Version: 4.7
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: shell-cmds
+Filename: debs/findutils_4.7_iphoneos-arm.deb
+Size: 760
+MD5sum: 7e882c3bf402557fc0c8277314b994ef
+SHA1: 909649f33aa180050eb439c3ab35b096b7cd55cd
+SHA256: 56034ab8330f39c0c195bcc788dcb1578a2b31360fe3d5de60a63ce265b22afc
+Section: Utilities
+Priority: optional
+Description: Dummy package for upgrade path
+Name: Find Utilities (Dummy)
+
+Package: grep
+Version: 3.4
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: text-cmds
+Filename: debs/grep_3.4_iphoneos-arm.deb
+Size: 756
+MD5sum: 8da5f64d4502ab33c9722caa41ffc271
+SHA1: c6a3e90b252486606cd21fffd38182d20892e974
+SHA256: 5ce3a0cca21857a1af829950346076f58827160360c56d2c6f8a0ed4f311d1dd
+Section: Utilities
+Priority: optional
+Description: Dummy package for upgrade path
+Name: grep (Dummy)
+
 Package: profile.d
 Version: 0-4
 Architecture: iphoneos-arm
@@ -13,4 +134,56 @@ Section: Administration
 Priority: standard
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
+
+Package: sed
+Version: 4.8
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: text-cmds
+Filename: debs/sed_4.8_iphoneos-arm.deb
+Size: 788
+MD5sum: 30916092c439650c59b4946d94fa2a0d
+SHA1: ed4cb65930bd9726f796342ef8984c1b408cf56a
+SHA256: b09c453fd280f7edc4024dab5b71ac82a9f6222e16559c56856062d07f90a6d8
+Section: Utilities
+Priority: optional
+Description: Dummy package for upgrade path
+Name: sed (Dummy)
+
+Package: shell-cmds
+Version: 203-3
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8), file-cmds (>=272.220.1) | bsdprep
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.30), findutils (<= 4.6-1)
+Replaces: coreutils (<= 8.30), findutils, bsdprep
+Provides: killall, which, findutils, bsdprep
+Filename: debs/shell_cmds_203-3_iphoneos-arm.deb
+Size: 109708
+MD5sum: 6c4f9e4ea841e840b5920066e3b7d33e
+SHA1: 9385eea11165b81384b01fa82b5fa4443a1da523
+SHA256: 6aa1fcbf945efb28d3c1c93590d49f1ba06f66c04ba6490c1e9380e291c71bfc
+Section: Administration
+Priority: important
+Description: killall, mktemp, renice, time, which
+
+Package: text-cmds
+Version: 99
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8), shell-cmds (>= 203-3) | bsdprep
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.30), cydia (<= 2.2)
+Replaces: coreutils (<= 8.30)
+Provides: grep (=3.4), sed (=4.8)
+Filename: debs/text-cmds_99_iphoneos-arm.deb
+Size: 130064
+MD5sum: 89b51570c98174a5159556f3c48df119
+SHA1: 9ca8ebd5cda9c97c65c1e40f31a58ff6c3d16d65
+SHA256: e94e5e89cbcd458e359ed9abb4f483cd09e9a10233d155e06ad5601860e98db6
+Section: Utilities
+Priority: important
+Description: cat, cut, paste, sort, tail
+Tag: purpose::console, role::hacker
 
