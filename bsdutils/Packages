@@ -33,7 +33,7 @@ Description: Symlinks GNU Core Utilities paths to BSD
 Name: Core Utilities (Symlinks)
 
 Package: coreutils-bin
-Version: 8.30-1
+Version: 8.30-2
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -41,11 +41,11 @@ Pre-Depends: bsdprep | file-cmds (>=272.220.1)
 Depends: cy+cpu.arm64, shell-cmds (>=203-3), file-cmds (>=272.220.1), text-cmds (>=99)
 Conflicts: coreutils (<= 8.29)
 Provides: dirname, kill, mktemp
-Filename: debs/coreutils-bin_8.30-1_iphoneos-arm.deb
-Size: 1104
-MD5sum: 24400786f75be4f445ede7e8ea5adee8
-SHA1: f9ad99028a0b8fd2ae60fa4558b4a30b5f38c2fa
-SHA256: 9b463a1d3bf7b839c034788761ac63ca137ebcaca93bead2e11cd0569e6cce98
+Filename: debs/coreutils-bin_8.30-2_iphoneos-arm.deb
+Size: 1092
+MD5sum: bf27a137fa1bba2621c5132e95ac1ad0
+SHA1: 844f3b61475fa5d6d997bcfbb9e237c59f168b23
+SHA256: b1990b21de37d7d1a54e5630aa308aca19e52723939cadcd21b60fa1ea60a99f
 Section: Utilities
 Priority: required
 Description: Symlinks the GNU paths for /bin to BSD
@@ -73,17 +73,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: Cydia Compatibility Package
 
 Package: file-cmds
-Version: 272.220.1
+Version: 272.220.1-2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8), bsdprep | coreutils-bin (>= 8.30-1)
 Depends: cy+cpu.arm64
 Conflicts: coreutils (<= 8.30)
-Filename: debs/file_cmds_272.220.1_iphoneos-arm.deb
-Size: 137364
-MD5sum: fec1f25146c10409605fadbaa994aaed
-SHA1: 27bfcbeb5b612bb1cdf344cae5f62f87263b8307
-SHA256: 682fd3343dd148e6161f35a1e985238ab7449fd19819b5bb73c29a260dc2d721
+Filename: debs/file_cmds_272.220.1-2_iphoneos-arm.deb
+Size: 137168
+MD5sum: f63a7421afbf969d42ac307e123ebddb
+SHA1: 1103dfb22913d4d92103462fbfb2cf134a879db1
+SHA256: 6352da0497eba26fa803a2d5b3e251af72ceb3014b872337373996ec5a170593
 Section: Utilities
 Priority: important
 Description: chflags, compress, ipcrm, ipcs, pax
