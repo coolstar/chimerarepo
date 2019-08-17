@@ -16,56 +16,56 @@ Description: finger, fingerd, last, lsvfs, md, ps
 Tag: purpose::console, role::hacker
 
 Package: apt
-Version: 1.8.0
+Version: 1.8.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
-Depends: apt-key, apt-lib (>= 1.8.0), berkeleydb, cy+cpu.arm64
+Depends: apt-key, apt-lib (>= 1.8.2), cy+cpu.arm64
 Replaces: apt7
-Provides: apt7 (= 1.8.0)
-Filename: debs/apt/apt_1.8.0_iphoneos-arm.deb
-Size: 141428
-MD5sum: 06dac20aae0e5e242f3e2fb64f0120ee
-SHA1: ee2e2fc378abc2c997d778e2e991da90afbd3514
-SHA256: 57e1b1c445d73ef3d1dc64bf8f65f99797d4e8da6799f0aee55dafdec4ceb69f
+Provides: apt7 (= 1.8.2)
+Filename: debs/apt/apt_1.8.2_iphoneos-arm.deb
+Size: 137536
+MD5sum: 33358eb8eb35e409f8dff4b3da6dd548
+SHA1: 2426748d82cfe4431a03cf96f35214c7995573d6
+SHA256: 6113c4c55feeb9fcd738572a6326b1a5e2cbfce6ba75534328e33d3fae47a579
 Section: Packaging
 Priority: standard
 Description: the advanced packaging tool from Debian
 Name: APT 1.8 Strict
 
 Package: apt-key
-Version: 1.8.0
+Version: 1.8.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
-Depends: apt-lib (>= 1.8.0), cy+cpu.arm64
+Depends: apt-lib (>= 1.8.2), cy+cpu.arm64
 Replaces: apt7-key
-Provides: apt7-key (= 1.8.0)
-Filename: debs/apt/apt-key_1.8.0_iphoneos-arm.deb
-Size: 8864
-MD5sum: 1eeaefef5fa9d62f6dabf78ef7f65544
-SHA1: 46eabd08b762e40c9e76811d6bd5df6f1f508c06
-SHA256: a9d419ae8292e819d794c67618a2c88fb4f24b362f299dea87f2d23c0eb54397
+Provides: apt7-key (= 1.8.2)
+Filename: debs/apt/apt-key_1.8.2_iphoneos-arm.deb
+Size: 8868
+MD5sum: d8f6b13b63908b00c8a7f0a44762da07
+SHA1: 43e37018e86e43410dbe7ba85a9e877090935597
+SHA256: 0b568f0485651dbda4c199b55b84de33a7153697cf5855c6c4249ec616e05ae9
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
 Name: APT 1.8 (apt-key)
 
 Package: apt-lib
-Version: 1.8.0-sileo2
+Version: 1.8.2-sileo
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
 Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
-Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui (<<99.0)
+Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
 Replaces: apt7-lib
-Provides: apt7-ssl, apt7-lib (= 1.8.0)
-Filename: debs/apt/apt-lib_1.8.0_sileo2_iphoneos-arm.deb
-Size: 1569088
-MD5sum: ce2b270fe9fa5cf842d7bce64772dd96
-SHA1: 6a99e3942c21dae989a5c307e5f94fe197d478e3
-SHA256: b20ce9ef8e9cedb0b10f3b2ba125c7c9d4e00edddc88902e8a324a93a2e21bec
+Provides: apt7-ssl, apt7-lib (= 1.8.2)
+Filename: debs/apt/apt-lib_1.8.2_sileo_iphoneos-arm.deb
+Size: 1386260
+MD5sum: 4185d495d738300f7af84c0396a88c9a
+SHA1: d68cb522d4e1095cf24ccd8fd842dc84eb10666c
+SHA256: b9889902b8011b416a740c0e47dcb6d7057bdec7840392f7af3bcb6c1020ab29
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
@@ -100,23 +100,6 @@ Section: Utilities
 Priority: important
 Description: msg, uudecode, uuencode, write
 Tag: purpose::console, role::hacker
-
-Package: berkeleydb
-Version: 6.2.23-2
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64
-Filename: debs/berkeleydb_6.2.23-1_iphoneos-arm.deb
-Size: 1119392
-MD5sum: e08dd6ccb971abb0469c25094f9dfde1
-SHA1: 4a60191c8780967a0708908d6521f812b0e04ce9
-SHA256: e51e01ea81300a747bc6fd8736937482a185fa76a4964d4cc2c726db33d7dcd5
-Section: Data_Storage
-Priority: standard
-Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
-Description: Oracle's embeddable database engine
-Name: Berkeley DB
 
 Package: bootstrap-cmds
 Version: 98
