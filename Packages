@@ -631,6 +631,21 @@ Priority: important
 Description: provides less information than more does
 Tag: purpose::console, role::hacker
 
+Package: libevent
+Version: 2.1.11
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: debs/libevent_2.1.11_iphoneos-arm.deb
+Size: 227124
+MD5sum: 3a00cce5fb8bc18064322ef80a593436
+SHA1: e7f9cb044ae503caefdc18e17fe13448eadaf6c8
+SHA256: c7be45408e12ec358fe7b1d51f272d777a836061b80f44088860cd7fdf640e10
+Section: Utilities
+Priority: optional
+Description: provides a mechanism to execute a callback on an event on a file descriptor
+Tag: purpose::console, role::developer
+
 Package: libressl
 Version: 2.8.3
 Architecture: iphoneos-arm
@@ -987,22 +1002,6 @@ Homepage: http://www.samba.org/rsync/
 Description: synchronize files between computers
 Tag: purpose::console, role::hacker
 
-Package: screen
-Version: 4.6.2
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: ncurses, cy+cpu.arm64
-Filename: debs/screen_4.6.2_iphoneos-arm.deb
-Size: 373556
-MD5sum: 8e3f7178a47eb0deb9933886a5e3e267
-SHA1: 6b38a3bb7beb9f98e00b23afb195faca86771264
-SHA256: 310644b132be35b45f5210d54f3cf63e3f724d0edba499fa5dad20b0b409209f
-Section: Terminal_Support
-Priority: important
-Description: multiplexes a terminal into many
-Tag: purpose::console, role::hacker
-Name: Screen
-
 Package: sed
 Version: 4.7
 Architecture: iphoneos-arm
@@ -1100,6 +1099,21 @@ Priority: required
 Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives
 Name: Tape Archive
+
+Package: tmux
+Version: 2.9a
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64, ncurses (>=6.1), libevent
+Filename: debs/tmux_2.9a_iphoneos-arm.deb
+Size: 195344
+MD5sum: 87dab71e190b88341b448cbf5de1a322
+SHA1: 97cbae74565e8e3e5b0e732d8fffd50fee6c5f2e
+SHA256: cd9be11a25de02f0b8d61991d019276687fe406b495fb68613a82ceab7ad4601
+Section: Terminal_Support
+Priority: optional
+Description: a terminal multiplexer
+Tag: purpose::console, role::hacker
 
 Package: top
 Version: 111.20.1
