@@ -148,18 +148,18 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta14
+Version: 3.0~beta15
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush, firmware (>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta14_iphoneos-arm.deb
-Size: 664004
-MD5sum: 42eb633021491ed03814d55700cc0a18
-SHA1: 63df82994ef1fe7ca0d15dda806395148340b87d
-SHA256: 4cd2400cbc5e6665eb8a4b338820204e2677375ff26f62d728e6d49ed3c4c18b
+Filename: debs/com.anemonetheming.anemone3_3.0~beta15_iphoneos-arm.deb
+Size: 663776
+MD5sum: cec7f6002fc1d4e47c3af2e3fb5ddce2
+SHA1: bbdf120a400530063ee6ae7b612febe76845469f
+SHA256: 29b901d791d63ca12b32774d4ee994f5471e533d5806db5480d07baee4284467
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -168,17 +168,17 @@ Name: Anemone 3
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
 
 Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta9
+Version: 3.0~beta10
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
 Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta8)
 Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
 Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta9_iphoneos-arm.deb
-Size: 34468
-MD5sum: 7eadeb48f2c3d29a5868bd4524af7c4f
-SHA1: dec2f8acfb8237e25768213f207f7b0cdf75eb17
-SHA256: d6f8f07f2d492aa7b9383f6819a3df104fb3f1dbd266a0a893590f6ebf161968
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta10_iphoneos-arm.deb
+Size: 34460
+MD5sum: 6ad0289cc52e8bff9f89d5c8ce10c948
+SHA1: fbce07b221d522b3a5a8f6b1c61380ff0523b50d
+SHA256: d7e814abe4bc6bd0bed4a9470296243aeea079d2b063aff15d8c6593d9c12a3e
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
@@ -296,7 +296,7 @@ Description: flexible multi-protocol file transfers
 Name: cURL
 
 Package: cydia
-Version: 2.2-1
+Version: 2.3
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
@@ -304,11 +304,11 @@ Depends: org.coolstar.sileo, apt7-lib, apt7-key, darwintools, debianutils, dpkg 
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources
-Filename: debs/cydia_2.2-1_iphoneos-arm.deb
-Size: 94940
-MD5sum: 392f7f2082b17a16e008930343a0d571
-SHA1: 5d57cdab7105bd1828ab41c58091dcff2da61a9e
-SHA256: 5f62a1f2f11b99cc91e0f5974ee5259ea832ca7b79c529713a03b8fc526224fe
+Filename: debs/cydia_2.3_iphoneos-arm.deb
+Size: 95024
+MD5sum: 76514b53c6349accd198c79bb0e92963
+SHA1: 5dd5780574814cc1c8420a11bd926ec22eb26c76
+SHA256: 737d09ea454ba0f435c3ec1cf6172e93778c9631dbea4363045e22cc91bfe392
 Section: Packaging
 Priority: required
 Description: Base scripts and tools to set up Cydia-compatible virtual dependencies
@@ -349,17 +349,17 @@ Description: startupfiletool, sw_vers
 Name: Darwin Tools
 
 Package: debianutils
-Version: 4.8.4-1
+Version: 4.8.4-2
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
-Filename: debs/debianutils_4.8.4-1_iphoneos-arm.deb
-Size: 7308
-MD5sum: 5cce34584588d37615b5adff33506950
-SHA1: ccde1bdc1e5110e5d4966a748badec9d1bea54e4
-SHA256: abae7b90b02601b5a61c98aa013f0dc111aabdcaa1ff0de1f339541fac8836d8
+Filename: debs/debianutils_4.8.4-2_iphoneos-arm.deb
+Size: 7312
+MD5sum: 70d21c06a3fa21639c2fa868e8e37694
+SHA1: a8d229820603fffd2b0a82e77e5f247251c22067
+SHA256: 3c0ea1691210559a867d618d553aaced1ab8726094ef5c06c134cb3f2071bc6d
 Section: Utilities
 Priority: required
 Description: pretty much just run-parts. yep? run-parts
