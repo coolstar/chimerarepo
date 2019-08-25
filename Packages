@@ -897,15 +897,15 @@ Name: Sileo (Beta Channel)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.tweakinject
-Version: 1.1.1-sileo
+Version: 1.2.0-sileo
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute | org.coolstar.substrateloader
-Filename: debs/org.coolstar.tweakinject_1.1.1-sileo_iphoneos-arm.deb
-Size: 25412
-MD5sum: e68f391db2d565ce7ce4d1f19d5e036b
-SHA1: c066ae2c9864e4c94d82db2b4f2c5d1f92b99292
-SHA256: dee131f5c39e6bb0769b5f99d003076e0e95b887a8477fc285c12eba85fcaa21
+Filename: debs/org.coolstar.tweakinject_1.2.0-sileo_iphoneos-arm.deb
+Size: 25620
+MD5sum: 109887de3065d27be4381bcddda9a5dc
+SHA1: 98e7fc2e809744303d9568cff1742537cbf62588
+SHA256: c587fcfae7718c1bda7ddae607d3d1ad827bebe8dfee89408a3532890a1b362b
 Section: System
 Description: General purpose tweak loader with safe mode in case of crashes
 Author: CoolStar <coolstarorganization@gmail.com>
