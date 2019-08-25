@@ -34,18 +34,18 @@ Description: the advanced packaging tool from Debian
 Name: APT 1.8 Strict
 
 Package: apt-key
-Version: 1.8.2
+Version: 1.8.2-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.18)
-Depends: apt-lib (>= 1.8.2), cy+cpu.arm64
+Depends: apt-lib (>= 1.8.2), cy+cpu.arm64, coreutils-bin (>=8.30-3)
 Replaces: apt7-key
 Provides: apt7-key (= 1.8.2)
-Filename: debs/apt/apt-key_1.8.2_iphoneos-arm.deb
-Size: 8868
-MD5sum: d8f6b13b63908b00c8a7f0a44762da07
-SHA1: 43e37018e86e43410dbe7ba85a9e877090935597
-SHA256: 0b568f0485651dbda4c199b55b84de33a7153697cf5855c6c4249ec616e05ae9
+Filename: debs/apt/apt-key_1.8.2-1_iphoneos-arm.deb
+Size: 8884
+MD5sum: 0c3fca91643cc5f9d33a01475a8a146f
+SHA1: a45e5f078ae2e981e9ca8939676eb9ef7fb24937
+SHA256: 253b600977a65a8647c439d5a169efbb747d459ac53734f83eff9b4e3454a997
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
@@ -260,7 +260,7 @@ Description: Symlinks GNU Core Utilities paths to BSD
 Name: Core Utilities (Symlinks)
 
 Package: coreutils-bin
-Version: 8.30-2
+Version: 8.30-3
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -268,11 +268,11 @@ Pre-Depends: bsdprep | file-cmds (>=272.220.1)
 Depends: cy+cpu.arm64, shell-cmds (>=203-3), file-cmds (>=272.220.1), text-cmds (>=99)
 Conflicts: coreutils (<= 8.29)
 Provides: dirname, kill, mktemp
-Filename: debs/coreutils-bin_8.30-2_iphoneos-arm.deb
-Size: 1092
-MD5sum: bf27a137fa1bba2621c5132e95ac1ad0
-SHA1: 844f3b61475fa5d6d997bcfbb9e237c59f168b23
-SHA256: b1990b21de37d7d1a54e5630aa308aca19e52723939cadcd21b60fa1ea60a99f
+Filename: debs/coreutils-bin_8.30-3_iphoneos-arm.deb
+Size: 1356
+MD5sum: bf13bddf08606efb187368dfafb85500
+SHA1: 096bf68c71f5af8ef4e0b0c1c54cfefabea8b8cd
+SHA256: aa4f2cba21a99aea8b87380622a3846a686d30ac3fb41d9b2b9ad541a46f57b9
 Section: Utilities
 Priority: required
 Description: Symlinks the GNU paths for /bin to BSD
@@ -877,17 +877,17 @@ Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileobeta
-Version: 1.3.5b1
+Version: 1.3.5b2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo, zsh
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.3.5b1_iphoneos-arm.deb
-Size: 2265356
-MD5sum: b2000336a59c695527029c452c9df8f9
-SHA1: 298b5e36dcdb7457dc19e4b9dc15f5e49e71e6ce
-SHA256: 492148851232c619dc9effa2c90abc67d56919f911e3b5b2ee15f0e7e84bb661
+Filename: debs/org.coolstar.sileobeta_1.3.5b2_iphoneos-arm.deb
+Size: 2265840
+MD5sum: 2bf631b48a38c927714c50e4121d407e
+SHA1: 8c7a20867ab2b1084050890fd4740475cdfccd47
+SHA256: 123a9f536ea8f76d24d9396258cc9b4cda93bc880f51a0bcbff0f7fccdc16d9d
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
