@@ -1,0 +1,50 @@
+Package: file-cmds
+Version: 272.250.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8), bsdprep | coreutils-bin (>= 8.30-1)
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.30), gzip (<= 1.10)
+Filename: debs/file-cmds_272.250.1_iphoneos-arm.deb
+Size: 154808
+MD5sum: 2a6b337bdec1977b0a615413480f756f
+SHA1: 9e7c65a895678768c0eaa39ca49255226397ee34
+SHA256: 30e3ccaf9a6133b7665dfe89c0eb97ef9e2d8940d7ff326611e9c43574a46d81
+Section: Utilities
+Priority: important
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
+Package: gzip
+Version: 1.10-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: grep, sed, cy+cpu.arm64, text-cmds (>=99-1), file-cmds (>=272.250.1)
+Filename: debs/gzip_1.10-1_iphoneos-arm.deb
+Size: 968
+MD5sum: 5aa59f537647769201b760f32d7a02fa
+SHA1: 79d1af0ab53d367a2c0a6ab00ae904fdb4dfa27f
+SHA256: 3fad780af5f7a1ed522ce7973318607983d0c3300ad4a215eb6fcb991cedda1f
+Section: Archiving
+Priority: required
+Description: Symlinks from GNU gzip to BSD
+
+Package: text-cmds
+Version: 99
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8), shell-cmds (>= 203-3) | bsdprep
+Depends: cy+cpu.arm64
+Conflicts: coreutils (<= 8.30), cydia (<= 2.2)
+Replaces: coreutils (<= 8.30)
+Provides: grep (=3.4), sed (=4.8)
+Filename: debs/text-cmds_99-1_iphoneos-arm.deb
+Size: 130064
+MD5sum: 89b51570c98174a5159556f3c48df119
+SHA1: 9ca8ebd5cda9c97c65c1e40f31a58ff6c3d16d65
+SHA256: e94e5e89cbcd458e359ed9abb4f483cd09e9a10233d155e06ad5601860e98db6
+Section: Utilities
+Priority: important
+Description: cat, cut, paste, sort, tail
+Tag: purpose::console, role::hacker
+
