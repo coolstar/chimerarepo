@@ -30,19 +30,19 @@ Priority: required
 Description: Symlinks from GNU gzip to BSD
 
 Package: text-cmds
-Version: 99
+Version: 99-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8), shell-cmds (>= 203-3) | bsdprep
 Depends: cy+cpu.arm64
-Conflicts: coreutils (<= 8.30), cydia (<= 2.2)
+Conflicts: coreutils (<= 8.30), cydia (<= 2.2), gzip (<= 1.10)
 Replaces: coreutils (<= 8.30)
 Provides: grep (=3.4), sed (=4.8)
 Filename: debs/text-cmds_99-1_iphoneos-arm.deb
-Size: 130064
-MD5sum: 89b51570c98174a5159556f3c48df119
-SHA1: 9ca8ebd5cda9c97c65c1e40f31a58ff6c3d16d65
-SHA256: e94e5e89cbcd458e359ed9abb4f483cd09e9a10233d155e06ad5601860e98db6
+Size: 130184
+MD5sum: 16c3cf9c06764e60035a928723c24f37
+SHA1: e46c9474cdf82ffc9efa1a05ddb897675efa610b
+SHA256: 092270d01ccbac822152564936295427e08f78bdb7e564113f6ae2952c5fd7bf
 Section: Utilities
 Priority: important
 Description: cat, cut, paste, sort, tail
