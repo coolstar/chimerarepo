@@ -877,17 +877,17 @@ Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileobeta
-Version: 1.3.5b2
+Version: 1.3.6b1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo, zsh
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.3.5b2_iphoneos-arm.deb
-Size: 2265840
-MD5sum: 2bf631b48a38c927714c50e4121d407e
-SHA1: 8c7a20867ab2b1084050890fd4740475cdfccd47
-SHA256: 123a9f536ea8f76d24d9396258cc9b4cda93bc880f51a0bcbff0f7fccdc16d9d
+Filename: debs/org.coolstar.sileobeta_1.3.6b1_iphoneos-arm.deb
+Size: 2266440
+MD5sum: a747f4ccd5de641242d751f2c322df5a
+SHA1: b4a92d2aa9c096b7c6959a7b05ea763acc56c2ea
+SHA256: 95f594de458f6b57916a05e3d2e7003808303d3442a31510c21fcd8c6e9c3617
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
