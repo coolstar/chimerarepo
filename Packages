@@ -857,17 +857,17 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.4.1
+Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), zsh
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.4.1_iphoneos-arm.deb
-Size: 2574984
-MD5sum: d8b865c2ba7e8ca02243b81c6abd2503
-SHA1: 2770622024a64184d51aca60be367f84826561a8
-SHA256: 9946750a25e2b7ef26089ec8aa009cdcd40e32fcf6fe112c7e769e766ce74cac
+Filename: debs/org.coolstar.sileo_1.5.0_iphoneos-arm.deb
+Size: 2844392
+MD5sum: 66184f4a3019834a657811100b52c5f8
+SHA1: b0dc7ad695f83b13fff7e5e1e5367b601186a22c
+SHA256: c5cf890ed6b2c77156787cc52d7578fbd4448f605815449f24cac8f67c52995e
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
@@ -877,17 +877,17 @@ Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileobeta
-Version: 1.5.0b2
+Version: 1.5.0b3
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo, zsh
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.5.0b2_iphoneos-arm.deb
-Size: 2836940
-MD5sum: 5616744523e5bce4316068a068dbcf9f
-SHA1: 890c941fa52f27d8edf9a6673078233cea614f01
-SHA256: 7f736aafd7efbee2ab2447d9bac6a304e72fae31898a9980fd18d06b9293ff0e
+Filename: debs/org.coolstar.sileobeta_1.5.0b3_iphoneos-arm.deb
+Size: 2839484
+MD5sum: f0835b7d49ae7250e7f27e491a988a3b
+SHA1: 8d97f15a04667698c6b975e262c67da3b5cf3267
+SHA256: 01abbae36a9f65e0e9b629ad001b8a6fa79c84973143a2679316127a28bff82d
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
