@@ -896,6 +896,26 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta Channel)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
+Package: org.coolstar.sileobeta
+Version: 1.7.0b1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo, zsh
+Conflicts: cydia-gui (<<99.0)
+Filename: debs/org.coolstar.sileobeta_1.7.0b1_iphoneos-arm.deb
+Size: 3051180
+MD5sum: 022095619749c417ba9ea1f25d6a7c79
+SHA1: 6027bfffa8b349c6091aba25aaae784fe68713a4
+SHA256: 4cf0751e7b0692e4e704faf0bfb20ce127a8c9cd6e4dd0c4e2e14164445de1e7
+Section: Packaging
+Priority: required
+Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
+Tag: cydia::essential
+Author: Sileo Team <getsileoapp@gmail.com>
+Name: Sileo (Beta Channel)
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+
 Package: org.coolstar.tweakinject
 Version: 1.3.0-sileo
 Architecture: iphoneos-arm

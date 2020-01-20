@@ -6,12 +6,12 @@ Architectures: iphoneos-arm
 Components: main
 Codename: ios
 Description: Core Utilities for the Chimera jailbreak
-Date: Sun, 05 Jan 2020 08:43:42 +0000
+Date: Mon, 20 Jan 2020 08:48:17 +0000
 MD5Sum:
- 3289488df326f8dd7edcc1080ae60d7b 45909 Packages
- 8d122b6672a9ba0bdb8d9d3ced5dde74 12577 Packages.bz2
- ac6a540934e4c4260ba8f405665eb2c5 13048 Packages.xz
+ db3a31e8c582621b688706a8be8f6d11 46880 Packages
+ 4d77d984c587ce461bec638702bbff1a 12710 Packages.bz2
+ c13ffb7af58fb216d5d56b45c875a2f5 13144 Packages.xz
 SHA256:
- 19de80fbe90977ec6db7eb95ede3d0a38fa30cca63fbf54c95b9f38119e9239e 45909 Packages
- 4446e8b50790baf56a99f26f70374706164537b952c7aebd55110948e78787b4 12577 Packages.bz2
- f68dd7e5a1abd3e0a9fde448ae7249e9c64f06e5ce89f556f6319211e4f10565 13048 Packages.xz
+ 5ef2b7a6ef779def893495f90a7dddafba2c8381fc67e5515d2b1a324129fca0 46880 Packages
+ cdba8ba5dbe9379b873c629cb53a9241d2776bae28be80cb9314ccae638cae49 12710 Packages.bz2
+ 1f3f3168eab257fe7fd592faa9428204196cc5703118549b7ffcead1c03cc7c2 13144 Packages.xz
