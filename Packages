@@ -52,7 +52,7 @@ Description: repository encryption key management tool
 Name: APT 1.8 (apt-key)
 
 Package: apt-lib
-Version: 1.8.2-sileo
+Version: 1.8.2-sileo2
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: CoolStar <coolstarorganization@gmail.com>
@@ -61,11 +61,11 @@ Depends: bzip2, dpkg (>= 1.19.4), gnupg, gzip, lzma, cy+cpu.arm64
 Conflicts: apt7-ssl, cydia (<=2.1), cydia-gui
 Replaces: apt7-lib
 Provides: apt7-ssl, apt7-lib (= 1.8.2)
-Filename: debs/apt/apt-lib_1.8.2_sileo_iphoneos-arm.deb
-Size: 1386260
-MD5sum: 4185d495d738300f7af84c0396a88c9a
-SHA1: d68cb522d4e1095cf24ccd8fd842dc84eb10666c
-SHA256: b9889902b8011b416a740c0e47dcb6d7057bdec7840392f7af3bcb6c1020ab29
+Filename: debs/apt/apt-lib_1.8.2-sileo2_iphoneos-arm.deb
+Size: 1387020
+MD5sum: e3297dafd3e747ea0dd09ab26a2590d9
+SHA1: 90347864a2883ce800c2c16406611907d2d90011
+SHA256: a0b5a193ef50bb57095f466a20a5a56200d3bdd5f9e996d45941a7a1cfbe0b3a
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
@@ -187,15 +187,15 @@ Name: Anemone 3 SpringBoard Extension Pack
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
 
 Package: com.ex.libsubstitute
-Version: 0.1.2-coolstar
+Version: 0.1.3-coolstar
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 8.0), cy+cpu.arm64
-Filename: debs/com.ex.substitute_0.1.2-coolstar_iphoneos-arm.deb
-Size: 27080
-MD5sum: 772e98904ecf51c40ec4153a493060dd
-SHA1: caecfa1f1132eb136d9e991e050bdffab7e6cbf9
-SHA256: 088286ed14830ba1e22fd3dd573684b518935321ef1787b0d0ac93792bac160c
+Filename: debs/com.ex.substitute_0.1.3-coolstar_iphoneos-arm.deb
+Size: 27812
+MD5sum: 38131a4440641dc27bcb9e6fe5f63d31
+SHA1: 744cdcefa4570d58d4ce3337b1d451da95bf1ea7
+SHA256: 9513e3b516694c343a531950067f444ebe6c61f946d97bd45a711e7a268f7252
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution (library only)
@@ -724,15 +724,15 @@ Priority: important
 Description: calendar, leave, ncal, tsort, units
 
 Package: mobilesubstrate
-Version: 99.2
+Version: 99.3
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
-Filename: debs/mobilesubstrate_99.2_iphoneos-arm.deb
-Size: 3664
-MD5sum: e3f495b930da06051dd326eb54fe7291
-SHA1: ae102133cef775c7b1490f82d3c5755a01916a6a
-SHA256: 735829480a02abee3b0b62e2bc538d2aca38caedaf94a6292380068980bec884
+Filename: debs/mobilesubstrate_99.3_iphoneos-arm.deb
+Size: 3284
+MD5sum: 7ba5762c5ccdac7fea0fa2095a3a4ae9
+SHA1: 0b93728f041ec724fbcfeefa831390bc4075b007
+SHA256: ee29212f8b17bddbff16ec31e1af04cdb132b372265b81d3456eff95732b44d6
 Section: System
 Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
 Author: CoolStar <coolstarorganization@gmial.com>
