@@ -876,17 +876,17 @@ Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileobeta
-Version: 1.7.0b1
+Version: 1.7.0b2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo, zsh
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.7.0b1_iphoneos-arm.deb
-Size: 3051180
-MD5sum: 022095619749c417ba9ea1f25d6a7c79
-SHA1: 6027bfffa8b349c6091aba25aaae784fe68713a4
-SHA256: 4cf0751e7b0692e4e704faf0bfb20ce127a8c9cd6e4dd0c4e2e14164445de1e7
+Filename: debs/org.coolstar.sileobeta_1.7.0b2_iphoneos-arm.deb
+Size: 3065344
+MD5sum: 0cc48d8c2d054204d49ed49ee2b47e1c
+SHA1: ea86c5ec79ccb397ee84b239efa2598a840b3f9e
+SHA256: a37da15962ae9f06293a45debb68f990d2abfe61919fa092c683873d23915e00
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
@@ -977,16 +977,16 @@ Author: Dustin Howett <dustin@howett.net>
 Name: pincrush
 
 Package: preferenceloader
-Version: 2.2.4~beta1
+Version: 2.2.4~coolstar2
 Architecture: iphoneos-arm
 Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
 Installed-Size: 532
 Depends: mobilesubstrate
-Filename: debs/preferenceloader_2.2.4_beta1_iphoneos-arm.deb
-Size: 33838
-MD5sum: 61efed5a8aa8507208731da2d737c882
-SHA1: 5c180113d9fc6263cf30700a725dacb92b546218
-SHA256: d395cfb1d8dd56f984df50dc0db33746e3e1e72f311be5bad3f4235342b21b90
+Filename: debs/preferenceloader_2.2.4~coolstar2_iphoneos-arm.deb
+Size: 33944
+MD5sum: f7489a1379e69b88c10d149585e331c4
+SHA1: ccded83043b690b397912552bd2b1a6b97cadbf7
+SHA256: bd8bb1d874682d1bc6f04a28108d637b7d8986d68634ce5ecc974e6ad450b6e5
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Description: load preferences in style
