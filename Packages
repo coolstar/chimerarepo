@@ -641,6 +641,20 @@ Priority: optional
 Description: provides a mechanism to execute a callback on an event on a file descriptor
 Tag: purpose::console, role::developer
 
+Package: libhooker-strap
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Filename: debs/libhooker-strap_1.0_iphoneos-arm.deb
+Size: 9828
+MD5sum: cc2c8fa366c91306351692fc63c70fa7
+SHA1: 40e13e1581cb8b201321d80acd48ffa8e26e5ab8
+SHA256: 46c765a472c59b2b515c1d7de675bada1632c5042bedac63abaecedc9e4fcb84
+Section: System
+Description: Support package for Tweak Injection on checkm8 based jailbreaks (Fugu or checkra1n)
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker bootstrapper (checkm8)
+
 Package: libressl
 Version: 2.8.3
 Architecture: iphoneos-arm
