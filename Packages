@@ -316,22 +316,6 @@ Tag: cydia::essential
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Cydia Compatibility Package
 
-Package: cydia-gui
-Version: 99.0
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: cydia, org.coolstar.sileo, cy+cpu.arm64
-Filename: debs/cydia-gui_99.0_iphoneos-arm.deb
-Size: 908
-MD5sum: a80991fe592da67f18ba36aadf75f381
-SHA1: f54eaa10e95c58a6c8a71b831af01e9682b979bf
-SHA256: 84604ba03812cef3c43bc7eaad7281e619673b7cd3d8a1eaa3e4470b6cb936d7
-Section: Packaging
-Priority: standard
-Description: Dummy package to ease Cydia -> Sileo Transition
-Author: CoolStar <coolstarorganization@gmail.com>
-Name: Cydia (Transition Package)
-
 Package: darwintools
 Version: 1-7
 Architecture: iphoneos-arm
