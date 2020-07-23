@@ -833,24 +833,25 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: SemiRestore 11 Lite
 
 Package: org.coolstar.sileo
-Version: 1.8.3
+Version: 1.8.6-1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileo_1.8.3_iphoneos-arm.deb
-Size: 3150072
-MD5sum: 0b0b7a1cb943adf32073c6d101ffe0b5
-SHA1: 439181a41808a2529f507d5a49ca95c4255e9487
-SHA256: d65e9d0eb048881af17b007fe7302597090392199ddab5b85b99909e66c161a1
+Filename: debs/org.coolstar.sileo_1.8.6-1_iphoneos-arm.deb
+Size: 3150112
+MD5sum: 259b1f321e3896ec1dd4d6f984caec0c
+SHA1: 5f744269a53bd454260a387b1b3ca954b633c70e
+SHA256: 0339cad172f11a3d023bf9f8a7b64abd0a72cc36ebe69b2e99010482fb483de6
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
 Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
 Name: Sileo
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: org.coolstar.sileoalpha
 Version: 2.0.0a2
@@ -873,17 +874,17 @@ Name: Sileo (Alpha Channel)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.coolstar.sileobeta
-Version: 1.8.4b1
+Version: 1.8.7b1
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: debianutils, dpkg (>= 1.18)
 Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo (>= 1.8.3)
 Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.8.4b1_iphoneos-arm.deb
-Size: 3137484
-MD5sum: 9cba106e70b881cf87a46f156f10f449
-SHA1: b4a9a7010c0cd3cf6a3567beb004dcc18ec6cc0f
-SHA256: 3c8b930a021ac5867d3c4783de7bbd525b4043dc80c89ce0275f10ba499b18d7
+Filename: debs/org.coolstar.sileobeta_1.8.7b1_iphoneos-arm.deb
+Size: 3147224
+MD5sum: 336adac9bbe05917e3b43f6c906ff94c
+SHA1: d04c2f89c8871ed9ec01ed300c1919dabf52cb1a
+SHA256: 8bbc9450d47ab027ec1cd3e1107e2985cb3e4b041328ceaee0ff275543f762ac
 Section: Packaging
 Priority: required
 Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
