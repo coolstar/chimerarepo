@@ -148,59 +148,43 @@ Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
 Package: com.anemonetheming.anemone3
-Version: 3.0~beta15
+Version: 3.0~beta23
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
-Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
 Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: debs/com.anemonetheming.anemone3_3.0~beta15_iphoneos-arm.deb
-Size: 663776
-MD5sum: cec7f6002fc1d4e47c3af2e3fb5ddce2
-SHA1: bbdf120a400530063ee6ae7b612febe76845469f
-SHA256: 29b901d791d63ca12b32774d4ee994f5471e533d5806db5480d07baee4284467
+Filename: debs/com.anemonetheming.anemone3_3.0~beta23_iphoneos-arm.deb
+Size: 805920
+MD5sum: 66cfe39a998b3ddac1f05b8e5056fa9d
+SHA1: f006318920529625f0ca7776733480e89fe48793
+SHA256: 027ad68b804d6461be1fe2a39375fc725658729938a5e72d85d0a7877d12ecf8
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
-Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
 Name: Anemone 3
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3.json
 
 Package: com.anemonetheming.anemone3-extsb
-Version: 3.0~beta10
+Version: 3.0~beta14
 Architecture: iphoneos-arm
 Maintainer: AnemoneTeam <anemonetheming@gmail.com>
-Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, com.anemonetheming.anemone3 (>=3.0~beta8)
+Depends: firmware (>=11.0), org.coolstar.libhooker, com.anemonetheming.anemone3 (>=3.0~beta16)
 Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
 Provides: org.coolstar.classicdock, org.coolstar.classicbadges
-Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta10_iphoneos-arm.deb
-Size: 34460
-MD5sum: 6ad0289cc52e8bff9f89d5c8ce10c948
-SHA1: fbce07b221d522b3a5a8f6b1c61380ff0523b50d
-SHA256: d7e814abe4bc6bd0bed4a9470296243aeea079d2b063aff15d8c6593d9c12a3e
+Filename: debs/com.anemonetheming.anemone3-extsb_3.0~beta14_iphoneos-arm.deb
+Size: 37064
+MD5sum: df19351f027b9b3cd4e768bbb8f7f043
+SHA1: 719a99d6a004e31201dba6694851382ae9c51a73
+SHA256: b4876b9b280ff37a594738877241729c73ec3417a68afc061de45837d2b3d04f
 Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <anemonetheming@gmail.com>
-Icon: https://coolstar.moe/sileoassets/featured/anemone3-icon.png
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
 Name: Anemone 3 SpringBoard Extension Pack
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=com.anemonetheming.anemone3-extsb
-
-Package: com.ex.libsubstitute
-Version: 0.1.3-coolstar
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 8.0), cy+cpu.arm64
-Filename: debs/com.ex.substitute_0.1.3-coolstar_iphoneos-arm.deb
-Size: 27812
-MD5sum: 38131a4440641dc27bcb9e6fe5f63d31
-SHA1: 744cdcefa4570d58d4ce3337b1d451da95bf1ea7
-SHA256: 9513e3b516694c343a531950067f444ebe6c61f946d97bd45a711e7a268f7252
-Section: System
-Priority: optional
-Description: Substrate substitute for code substitution (library only)
-Author: comex <comexk+da@gmail.com>
-Name: Substitute
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3extsb.json
 
 Package: com.justinpetkovic.youtubetools
 Version: 3.0-1
@@ -604,20 +588,6 @@ Priority: optional
 Description: provides a mechanism to execute a callback on an event on a file descriptor
 Tag: purpose::console, role::developer
 
-Package: libhooker-strap
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Filename: debs/libhooker-strap_1.0_iphoneos-arm.deb
-Size: 9828
-MD5sum: cc2c8fa366c91306351692fc63c70fa7
-SHA1: 40e13e1581cb8b201321d80acd48ffa8e26e5ab8
-SHA256: 46c765a472c59b2b515c1d7de675bada1632c5042bedac63abaecedc9e4fcb84
-Section: System
-Description: Support package for Tweak Injection on checkm8 based jailbreaks (Fugu or checkra1n)
-Author: CoolStar <coolstarorganization@gmail.com>
-Name: libhooker bootstrapper (checkm8)
-
 Package: libressl
 Version: 2.8.3
 Architecture: iphoneos-arm
@@ -699,21 +669,6 @@ SHA256: 6651ddfb4d139846e597d8a32d03b21f2cc20cee07495418d6bc89f19c47d279
 Section: Administration
 Priority: important
 Description: calendar, leave, ncal, tsort, units
-
-Package: mobilesubstrate
-Version: 99.3
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
-Filename: debs/mobilesubstrate_99.3_iphoneos-arm.deb
-Size: 3284
-MD5sum: 7ba5762c5ccdac7fea0fa2095a3a4ae9
-SHA1: 0b93728f041ec724fbcfeefa831390bc4075b007
-SHA256: ee29212f8b17bddbff16ec31e1af04cdb132b372265b81d3456eff95732b44d6
-Section: System
-Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
-Author: CoolStar <coolstarorganization@gmial.com>
-Name: Substrate Compatibility Layer
 
 Package: nano
 Version: 3.2
@@ -816,6 +771,24 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Name: ClassicDock / ModernDock
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.classicdock
 
+Package: org.coolstar.libhooker
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/org.coolstar.libhooker_1.3.2_iphoneos-arm.deb
+Size: 47856
+MD5sum: db33c2dfd0bb322b7e81b250f267780b
+SHA1: f960d4d64cab24a6879239e6bf4fd36f6e1d9fd5
+SHA256: 4885ffeffd74f0fb5cc807247c8d4b26ca7d6cb8af20eab9beffb3538462381e
+Section: System
+Description: General Purpose Injection and Hooking library for 64-bit devices
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: libhooker
+
 Package: org.coolstar.semirestore11-lite
 Version: 11.0
 Architecture: iphoneos-arm
@@ -892,21 +865,6 @@ Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo (Beta Channel)
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
-
-Package: org.coolstar.tweakinject
-Version: 1.4.2-sileo
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute | org.coolstar.substrateloader
-Filename: debs/org.coolstar.tweakinject_1.4.2-sileo_iphoneos-arm.deb
-Size: 25964
-MD5sum: 7bea0490d752d81ec338e469b5294edc
-SHA1: dea157755f9a5cdb746300dc313c5f7a692b06f3
-SHA256: a63112618818b329f38dce3df12d96c986d96caed16bf71478168c8936d6b9ac
-Section: System
-Description: General purpose tweak loader with safe mode in case of crashes
-Author: CoolStar <coolstarorganization@gmail.com>
-Name: Tweak Injector
 
 Package: org.swift.libswift
 Version: 5.0-electra2
