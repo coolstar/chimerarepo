@@ -789,6 +789,22 @@ Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: libhooker
 
+Package: org.coolstar.safemode
+Version: 1.1.2-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Replaces: org.coolstar.libhooker (<<1.2.5)
+Filename: debs/org.coolstar.safemode_1.1.2-2_iphoneos-arm.deb
+Size: 62576
+MD5sum: 447dc63d21549fc3493bae98a0d9d96c
+SHA1: d8b46294a5845dabfd1f8861a64bff15ddcb47f1
+SHA256: d02a4ef5f46c7a8a42ea4ca98c2cd4d66c283ade2bf8c577d5d23fb89f25ac8e
+Section: System
+Description: Safe Mode app for libhooker
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Safe Mode (libhooker)
+
 Package: org.coolstar.semirestore11-lite
 Version: 11.0
 Architecture: iphoneos-arm
