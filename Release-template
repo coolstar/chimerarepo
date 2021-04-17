@@ -1,0 +1,8 @@
+Origin: Chimera Repo
+Label: Chimera Repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm
+Components: main
+Codename: ios
+Description: Core Utilities for the Chimera jailbreak
