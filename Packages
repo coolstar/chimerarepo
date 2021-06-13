@@ -789,18 +789,18 @@ Name: ClassicDock / ModernDock
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.classicdock
 
 Package: org.coolstar.libhooker
-Version: 1.6.0
+Version: 1.6.2
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 11.0), cy+cpu.arm64, org.coolstar.safemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 99.4), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/org.coolstar.libhooker_1.6.0_iphoneos-arm.deb
-Size: 53716
-MD5sum: 78012a7169d924ddbb9773d66e104b12
-SHA1: d499ecea02300ae0d6847a4087e4e0497cf5cc90
-SHA256: b4df76e8e62269c2fd7c3722d259820f9d5037e2560bae208b1d5c5962c866b7
+Filename: debs/org.coolstar.libhooker_1.6.2_iphoneos-arm.deb
+Size: 53888
+MD5sum: 75f05204ff425aac158fc3ef774c6997
+SHA1: 7849eaf0e491e824edd66839f0cad465fe9e982c
+SHA256: 783d72390f4f07c2851277244ed3cf56d78bddc0b5c0368b6cf57d5aa4eaa342
 Section: System
 Description: General Purpose Injection and Hooking library for 64-bit devices
 Author: CoolStar <coolstarorganization@gmail.com>
@@ -860,46 +860,6 @@ Author: Sileo Team <getsileoapp@gmail.com>
 Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileoalpha
-Version: 2.0.0a2
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo), apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), cydia (>= 2.2), cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo
-Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileoalpha_2.0.0a2_iphoneos-arm.deb
-Size: 2788696
-MD5sum: 44c9e6d274a1504d6bfb5a035a36e674
-SHA1: 0a4b66e39f5b3e44b740f91ab4832dc53cbce137
-SHA256: be780c9c396b025e22a55cf8eb8f574f08fb45ad84adfb24642cfd1c12562de1
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo (Alpha Channel)
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
-
-Package: org.coolstar.sileobeta
-Version: 1.8.7b3
-Architecture: iphoneos-arm
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: debianutils, dpkg (>= 1.18)
-Depends: apt (>= 1.8.0), apt (>= 2.1.0) | apt-lib (>= 1.8.0-sileo) | libapt (>=1.8.2-sileo2), apt (>= 2.1.0) | apt-key (>= 1.8.0), dpkg (>= 1.19.2-4), procursus-keyring | cydia, zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0), org.coolstar.sileo (>= 1.8.3)
-Conflicts: cydia-gui (<<99.0)
-Filename: debs/org.coolstar.sileobeta_1.8.7b3_iphoneos-arm.deb
-Size: 3149912
-MD5sum: 27a8a095845e21e29add7b0eeffad6d1
-SHA1: 58d61731e7b7fee7c7c2c7bf679028932be96d32
-SHA256: 4a605ef27f923406bf0a341f02bbda82120da5828dea252e53df98f790be1b16
-Section: Packaging
-Priority: required
-Description: A proper APT client for iOS 11 and higher. (View this package in Sileo to see the full depiction)
-Tag: cydia::essential
-Author: Sileo Team <getsileoapp@gmail.com>
-Name: Sileo (Beta Channel)
-Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
 
 Package: org.swift.libswift
 Version: 5.0-electra2
